@@ -1,0 +1,1542 @@
+<!DOCTYPE html>
+<!-- saved from url=(0155)https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&view=netframework-4.8#System_IO_FileSystemWatcher_Filter -->
+<html class="hasSidebar hasPageActions hasBreadcrumb reference has-default-focus js" lang="en-us" dir="ltr" data-css-variable-support="true" data-authenticated="false" data-auth-status-determined="true" data-target="docs" x-ms-format-detection="none"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/d5-f563e3"><link rel="stylesheet" href="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/override.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="FileSystemWatcher.Filter Property (System.IO)">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@docsmsft">
+
+		<meta name="monikers" content="netcore-1.0">
+<meta name="monikers" content="netcore-1.1">
+<meta name="monikers" content="netcore-2.0">
+<meta name="monikers" content="netcore-2.1">
+<meta name="monikers" content="netcore-2.2">
+<meta name="monikers" content="netcore-3.0">
+<meta name="monikers" content="netframework-1.1">
+<meta name="monikers" content="netframework-2.0">
+<meta name="monikers" content="netframework-3.0">
+<meta name="monikers" content="netframework-3.5">
+<meta name="monikers" content="netframework-4.0">
+<meta name="monikers" content="netframework-4.5">
+<meta name="monikers" content="netframework-4.5.1">
+<meta name="monikers" content="netframework-4.5.2">
+<meta name="monikers" content="netframework-4.6">
+<meta name="monikers" content="netframework-4.6.1">
+<meta name="monikers" content="netframework-4.6.2">
+<meta name="monikers" content="netframework-4.7">
+<meta name="monikers" content="netframework-4.7.1">
+<meta name="monikers" content="netframework-4.7.2">
+<meta name="monikers" content="netframework-4.8">
+<meta name="monikers" content="netstandard-2.0">
+<meta name="monikers" content="netstandard-2.1">
+<meta name="monikers" content="xamarinandroid-7.1">
+<meta name="monikers" content="xamarinios-10.8">
+<meta name="monikers" content="xamarinmac-3.0">
+<meta name="original_content_git_url" content="https://github.com/dotnet/dotnet-api-docs/blob/master/xml/System.IO/FileSystemWatcher.xml">
+<meta name="original_ref_skeleton_git_url" content="https://github.com/dotnet/dotnet-api-docs/blob/master/xml/System.IO/FileSystemWatcher.xml">
+<meta name="author" content="dotnet-bot">
+<meta name="ms.author" content="dotnetcontent">
+<meta name="breadcrumb_path" content="/dotnet/breadcrumb/toc.json">
+<meta name="apiPlatform" content="dotnet">
+<meta name="ms.topic" content="managed-reference">
+<meta name="ms.date" content="04/30/2018">
+<meta name="ms.technology" content="system.io">
+<meta name="ms.prod" content="dotnet-api">
+<meta name="uhfHeaderId" content="MSDocsHeader-DotNet">
+<meta name="search.ms_sitename" content="Docs">
+<meta name="search.ms_docsetname" content="dotnet-api-docs">
+<meta name="locale" content="en-us">
+<meta name="site_name" content="Docs">
+<meta name="search.ms_product" content="VS">
+<meta name="depot_name" content="VS.dotnet-api-docs">
+<meta name="APIName" content="System.IO.FileSystemWatcher.Filter">
+<meta name="APIName" content="System.IO.FileSystemWatcher.get_Filter">
+<meta name="APIName" content="System.IO.FileSystemWatcher.set_Filter">
+<meta name="APILocation" content="System.IO.FileSystem.Watcher.dll">
+<meta name="APILocation" content="System.dll">
+<meta name="APILocation" content="netstandard.dll">
+<meta name="TopicType" content="apiref">
+<meta name="APIType" content="Assembly">
+<meta name="updated_at" content="2019-08-14 06:09 AM">
+<meta name="document_id" content="bf4406b0-0594-0436-c937-714689199210">
+<meta name="document_version_independent_id" content="bf5505bf-e828-9448-33cc-bc417f9b7fc0">
+<meta name="page_type" content="dotnet">
+<meta name="page_kind" content="property">
+<meta name="toc_rel" content="_splitted/System.IO/toc.json">
+<meta name="source_url" content="">
+<meta name="ms.assetid" content="System.IO.FileSystemWatcher.Filter*">
+<meta name="pdf_url_template" content="https://docs.microsoft.com/pdfstore/en-us/VS.dotnet-api-docs/{branchName}{pdfName}">
+<meta name="search.mshattr.devlang" content="csharp vb fsharp cpp">
+
+	<meta name="scope" content=".NET">
+<link href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter" rel="canonical">
+	<title>FileSystemWatcher.Filter Property (System.IO) | Microsoft Docs</title>
+
+		<link rel="stylesheet" href="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/bb0187a0.site-ltr.css">
+
+	<link rel="stylesheet" href="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/b14f6de8.reference.css">
+
+
+	<script async="" src="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/analytics.js.download"></script><script>
+	var msDocs = {
+		data: {
+			timeOrigin: Date.now(),
+			azureHeaderLocale: 'en-us',
+			contentLocale: 'en-us',
+			contentDir: 'ltr',
+			userLocale: 'en-us',
+			userDir: 'ltr',
+			pageTemplate: 'Reference',
+			brand: '',
+			context: {
+
+			},
+			hasComments: false,
+			feedbackSystem: 'None',
+			feedbackGitHubRepo: '',
+			feedbackProductUrl: '',
+			contentGitUrl: 'https://github.com/dotnet/dotnet-api-docs/blob/master/xml/System.IO/FileSystemWatcher.xml',
+		},
+		functions:{},
+		settings:{
+			extendBreadcrumb: true,
+		}
+	};
+	if (!('Promise' in window && 'resolve' in window.Promise && 'reject' in window.Promise && 'all' in window.Promise && 'race' in window.Promise)) {
+		document.write('<script src="https://static.docs.com/ui/third-party/bluebird/3.5.0/bluebird.min.js" integrity="sha384-aD4BDeDGeLXLpPK4yKeqtZQa9dv4a/7mQ+4L5vwshIYH1Mc2BrXvHd32iHzYCQy5" crossorigin="anonymous"><\/script>');
+	}
+	if (typeof fetch !== 'function') {
+		document.write('<script src="https://static.docs.com/ui/third-party/fetch/2.0.3/fetch.min.js" integrity="sha384-H3LQq82b6Mm80GYRHtRSlTwO9DoXctmYCVEYk9M8mp97lRzs6DuSrHVUg3SBP9w0" crossorigin="anonymous"><\/script>');
+	}
+	if (typeof HTMLTemplateElement === 'undefined') {
+		document.write('<script src="https://static.docs.com/ui/third-party/template/1.4.0/template.min.js" integrity="sha384-1zKzI6ldTVHMU7n0W2HpE/lhHI+UG4D9IIaxbj3kT2UhCWicdTuJkTtnKuu0CQzN" crossorigin="anonymous"><\/script>');
+	}
+	if (typeof URL !== 'function') {
+		document.write('<script src="https://static.docs.com/ui/third-party/url/0.5.7/url.min.js" integrity="sha384-vn7xBMtpSTfzaTRWxj0kVq0UcsbBrTOgZ/M1ISHqe1V358elYva+lfiEC+T8jLPc" crossorigin="anonymous"><\/script>');
+	}
+	</script>
+
+	<script src="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/jquery-3.3.1.min.js.download" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+		<script src="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/e88e33db.index-docs.js.download"></script><style>
+		[data-moniker]:not([data-moniker~='netframework-4.8']) {
+			display: none !important;
+		}
+	</style><script src="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/jsll-4.js.download" async="" defer=""></script>
+
+<script src="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/18-d72213" defer=""></script><style>
+			.c-uhfh input[type="search"],
+			.c-uhfh.c-sgl-stck .c-uhfh-actions .c-search input[type="search"] {
+				padding-left: 69px !important;
+			}</style><script async="" src="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/t.js.download"></script><script async="" src="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/t.js(1).download"></script><script async="" src="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/t.js(2).download"></script><script async="" src="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/t.js(3).download"></script><script async="" src="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/t.js(4).download"></script><script async="" src="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/t.js(5).download"></script><script async="" src="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/t.js(6).download"></script><script async="" src="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/t.js(7).download"></script><script async="" src="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/t.js(8).download"></script><script async="" src="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/t.js(9).download"></script><script async="" src="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/t.js(10).download"></script><script async="" src="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/t.js(11).download"></script><script async="" src="https://web.vortex.data.microsoft.com/collect/v1/t.js?ver=%272.1%27&amp;name=%27Ms.Webi.ContentUpdate%27&amp;time=%272019-08-15T07%3A01%3A54.074Z%27&amp;os=%27Windows%27&amp;appId=%27JS%3ADocs%27&amp;-ver=%271.0%27&amp;-impressionGuid=%27281370be-b839-402a-851a-85ef608ff87c%27&amp;-pageName=%27bf4406b0-0594-0436-c937-714689199210%27&amp;-uri=%27https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdotnet%2Fapi%2Fsystem.io.filesystemwatcher.filter%23System_IO_FileSystemWatcher_Filter%3Fredirectedfrom%3DMSDN%26view%3Dnetframework-4.8%27&amp;-market=%27en-us%27&amp;-pageTags=%27%7B%22giturl%22%3A%22https%3A%2F%2Fgithub.com%2Fdotnet%2Fdotnet-api-docs%2Fblob%2Fmaster%2Fxml%2FSystem.IO%2FFileSystemWatcher.xml%22%2C%22author%22%3A%22dotnet-bot%22%2C%22pgauth%22%3A%22dotnetcontent%22%2C%22pgtop%22%3A%22managed-reference%22%2C%22date%22%3A%2204%2F30%2F2018%22%2C%22technology%22%3A%22system.io%22%2C%22product%22%3A%22dotnet-api%22%2C%22depotname%22%3A%22VS.dotnet-api-docs%22%2C%22publishtime%22%3A%222019-08-14%2006%3A09%20AM%22%2C%22document_version_independent_id%22%3A%22bf5505bf-e828-9448-33cc-bc417f9b7fc0%22%2C%22asst%22%3A%22System.IO.FileSystemWatcher.Filter*%22%2C%22contentlocale%22%3A%22en-us%22%2C%22highContrast%22%3A%22false%22%2C%22metaTags%22%3A%7B%7D%7D%27&amp;-pageHeight=3897&amp;-vpHeight=612&amp;-vpWidth=1396&amp;-actionType=%27R%27&amp;-behavior=0&amp;-vScrollOffset=1919&amp;-hScrollOffset=0&amp;-contentVer=%272.0%27&amp;-content=%27%5B%5D%27&amp;*baseType=%27Ms.Content.ContentUpdate%27&amp;*title=%27FileSystemWatcher.Filter%20Property%20(System.IO)%20%7C%20Microsoft%20Docs%27&amp;*cookieEnabled=true&amp;*isJs=true&amp;*isDomComplete=false&amp;*isLoggedIn=false&amp;ext-javascript-ver=%271.1%27&amp;ext-javascript-libVer=%274.2.14%27&amp;ext-javascript-domain=%27docs.microsoft.com%27&amp;ext-javascript-msfpc=%27GUID%3D4e607bc6fb454497a2fdcf6ece868a4a%26HASH%3D4e60%26LV%3D201906%26V%3D4%26LU%3D1561460689533%27&amp;ext-javascript-userConsent=false&amp;ext-javascript-anid=%27A%3DEB71D37D366A14FD8187EC2EFFFFFFFF%27&amp;ext-user-localId=%27t%3A1C1C4294BA76625136534F12BE766456%27&amp;$mscomCookies=false"></script></head>
+
+<body lang="en-us" dir="ltr" class="js-focus-visible">
+<div class="header-holder has-default-focus">
+	<a href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#main" class="skip-to-main-link visually-hidden-until-focused is-fixed has-inner-focus focus-visible has-top-zero has-left-zero has-right-zero has-padding-medium has-text-centered has-body-background-medium" tabindex="1">Skip to main content</a>
+		<div id="headerAreaHolder" data-bi-name="header">    <div id="headerArea" class="uhf" data-m="{&quot;cN&quot;:&quot;headerArea&quot;,&quot;cT&quot;:&quot;Area_coreuiArea&quot;,&quot;id&quot;:&quot;a1Body&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;Body&quot;}">
+                <div id="headerRegion" data-region-key="headerregion" data-m="{&quot;cN&quot;:&quot;headerRegion&quot;,&quot;cT&quot;:&quot;Region_coreui-region&quot;,&quot;id&quot;:&quot;r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;a1&quot;}">
+
+    <div id="headerUniversalHeader" data-m="{&quot;cN&quot;:&quot;headerUniversalHeader&quot;,&quot;cT&quot;:&quot;Module_coreui-universalheader&quot;,&quot;id&quot;:&quot;m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;r1a1&quot;}" data-module-id="Category|headerRegion|coreui-region|headerUniversalHeader|coreui-universalheader">
+        
+
+
+
+
+
+		<a id="uhfSkipToMain" class="m-skip-to-main" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#main" tabindex="0" style="z-index:3000002" data-m="{&quot;cN&quot;:&quot;Skip to content_nonnav&quot;,&quot;id&quot;:&quot;nn1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;m1r1a1&quot;}">Skip to main content</a>
+
+
+<header class="c-uhfh context-uhf c-sgl-stck c-category-header f-transparent" itemscope="itemscope" data-header-footprint="/MSDocs/MSDocsHeader-DotNet, fromService: True" data-magict="true" itemtype="http://schema.org/Organization">
+	<div class="js-global-head f-closed global-head-cont theme-light" data-m="{&quot;cN&quot;:&quot;Universal Header_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;m1r1a1&quot;}">
+		<div class="c-uhfh-gcontainer-st">
+			<button type="button" class="c-action-trigger c-glyph glyph-global-nav-button" aria-label="All Microsoft expand to see list of Microsoft products and services" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;Mobile menu button_nonnav&quot;,&quot;id&quot;:&quot;nn1c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2m1r1a1&quot;}"></button>
+			<button type="button" class="c-action-trigger c-glyph glyph-arrow-htmllegacy" aria-label="Close search" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;Close Search_nonnav&quot;,&quot;id&quot;:&quot;nn2c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c2m1r1a1&quot;}"></button>
+					<a id="uhfLogo" class="c-logo c-sgl-stk-uhfLogo" itemprop="url" href="https://www.microsoft.com/" aria-label="Microsoft" data-m="{&quot;cN&quot;:&quot;GlobalNav_Logo_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c2m1r1a1&quot;}">
+						<img alt="" itemprop="logo" itemscope="itemscope" class="c-image" src="./FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs_files/RE1Mu3b" role="presentation" aria-hidden="true">
+						<span role="presentation" aria-hidden="true">Microsoft</span>
+					</a>
+			<div class="f-mobile-title">
+				<button type="button" class="c-action-trigger c-glyph glyph-chevron-left" aria-label="See more menu options" data-m="{&quot;cN&quot;:&quot;Mobile back button_nonnav&quot;,&quot;id&quot;:&quot;nn4c2m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c2m1r1a1&quot;}"></button>
+				<span data-global-title="Microsoft home" class="js-mobile-title">.NET</span>
+				<button type="button" class="c-action-trigger c-glyph glyph-chevron-right" aria-label="See more menu options" data-m="{&quot;cN&quot;:&quot;Mobile forward button_nonnav&quot;,&quot;id&quot;:&quot;nn5c2m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c2m1r1a1&quot;}"></button>
+			</div>
+					<div class="c-show-pipe x-hidden-vp-mobile-st">
+						<a id="uhfCatLogo" class="c-logo c-cat-logo" href="https://dotnet.microsoft.com/" aria-label=".NET" itemprop="url" data-m="{&quot;cN&quot;:&quot;CatNav_.NET_nav&quot;,&quot;id&quot;:&quot;n6c2m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c2m1r1a1&quot;}">
+								<span>.NET</span>
+						</a>
+					</div>
+				<div class="cat-logo-button-cont x-hidden">
+						<button type="button" id="uhfCatLogoButton" class="c-cat-logo-button x-hidden" aria-expanded="false" aria-label=".NET" data-m="{&quot;cN&quot;:&quot;.NET_nonnav&quot;,&quot;id&quot;:&quot;nn7c2m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c2m1r1a1&quot;}">
+							.NET
+						</button>
+				</div>
+
+
+
+			        <nav id="uhf-g-nav" aria-label="Contextual menu" class="c-uhfh-gnav" data-m="{&quot;cN&quot;:&quot;Category nav_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c8c2m1r1a1&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c2m1r1a1&quot;}">
+            <ul class="js-paddle-items">
+                    <li class="single-link js-nav-menu x-hidden-none-mobile-vp uhf-menu-item">
+                        <a class="c-uhf-nav-link" href="https://dotnet.microsoft.com/" data-m="{&quot;cN&quot;:&quot;CatNav_Home_nav&quot;,&quot;id&quot;:&quot;n1c8c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c8c2m1r1a1&quot;}"> Home </a>
+                    </li>
+                                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="c-shellmenu_0" class="c-uhf-nav-link" href="https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet" data-m="{&quot;cN&quot;:&quot;CatNav_About_nav&quot;,&quot;id&quot;:&quot;n2c8c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c8c2m1r1a1&quot;}">About</a>
+                        </li>
+                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="c-shellmenu_1" class="c-uhf-nav-link" href="https://dotnet.microsoft.com/learn" data-m="{&quot;cN&quot;:&quot;CatNav_Learn_nav&quot;,&quot;id&quot;:&quot;n3c8c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c8c2m1r1a1&quot;}">Learn</a>
+                        </li>
+                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="c-shellmenu_2" class="c-uhf-nav-link" href="https://dotnet.microsoft.com/learn/dotnet/architecture-guides" data-m="{&quot;cN&quot;:&quot;CatNav_Architecture_nav&quot;,&quot;id&quot;:&quot;n4c8c2m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c8c2m1r1a1&quot;}">Architecture</a>
+                        </li>
+                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="c-shellmenu_3" class="c-uhf-nav-link" href="https://docs.microsoft.com/dotnet" data-m="{&quot;cN&quot;:&quot;CatNav_Docs_nav&quot;,&quot;id&quot;:&quot;n5c8c2m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c8c2m1r1a1&quot;}">Docs</a>
+                        </li>
+                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="c-shellmenu_4" class="c-uhf-nav-link" href="https://dotnet.microsoft.com/download" data-m="{&quot;cN&quot;:&quot;CatNav_Downloads_nav&quot;,&quot;id&quot;:&quot;n6c8c2m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c8c2m1r1a1&quot;}">Downloads</a>
+                        </li>
+                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="c-shellmenu_5" class="c-uhf-nav-link" href="https://dotnet.microsoft.com/platform/community" data-m="{&quot;cN&quot;:&quot;CatNav_Community_nav&quot;,&quot;id&quot;:&quot;n7c8c2m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c8c2m1r1a1&quot;}">Community</a>
+                        </li>
+
+
+                <li id="overflow-menu" class="overflow-menu x-hidden uhf-menu-item">
+                        <div class="c-uhf-menu js-nav-menu">
+        <button data-m="{&quot;pid&quot;:&quot;More&quot;,&quot;id&quot;:&quot;nn8c8c2m1r1a1&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c8c2m1r1a1&quot;}" type="button" aria-label="More" aria-expanded="false" style="white-space:nowrap">More</button>
+        <ul id="overflow-menu-list" aria-hidden="true" class="overflow-menu-list">
+        </ul>
+    </div>
+
+                </li>
+                                    <li class="single-link js-nav-menu" id="c-uhf-nav-cta">
+                        <a class="c-uhf-nav-link" href="https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/intro" data-m="{&quot;cN&quot;:&quot;CatNav_cta_Get Started_nav&quot;,&quot;id&quot;:&quot;n9c8c2m1r1a1&quot;,&quot;sN&quot;:9,&quot;aN&quot;:&quot;c8c2m1r1a1&quot;}">Get Started</a>
+                    </li>
+            </ul>
+            
+        </nav>
+
+
+			<div class="c-uhfh-actions" data-m="{&quot;cN&quot;:&quot;Header actions_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c9c2m1r1a1&quot;,&quot;sN&quot;:9,&quot;aN&quot;:&quot;c2m1r1a1&quot;}">
+				<div class="wf-menu">        <nav id="uhf-c-nav" aria-label="All microsoft menu" data-m="{&quot;cN&quot;:&quot;GlobalNav_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c9c2m1r1a1&quot;}">
+            <ul class="js-paddle-items">
+                <li>
+                    <div class="c-uhf-menu js-nav-menu">
+                        <button type="button" class="c-button-logo all-ms-nav" aria-label="All Microsoft expand to see list of Microsoft products and services" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_nonnav&quot;,&quot;id&quot;:&quot;nn1c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c9c2m1r1a1&quot;}" style="white-space: nowrap"> <span>All Microsoft</span></button>
+                        <ul class="f-multi-column f-multi-column-6" aria-hidden="true" data-m="{&quot;cN&quot;:&quot;More_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1c9c2m1r1a1&quot;}">
+                                    <li class="c-w0-contr">
+            <ul class="c-w0">
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Office_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_6" class="js-subm-uhf-nav-link" href="https://products.office.com/en-us/home" data-m="{&quot;cN&quot;:&quot;W0Nav_Office_nav&quot;,&quot;id&quot;:&quot;n1c1c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c2c1c9c2m1r1a1&quot;}">Office</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Windows_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_7" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/windows/" data-m="{&quot;cN&quot;:&quot;W0Nav_Windows_nav&quot;,&quot;id&quot;:&quot;n1c2c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c2c1c9c2m1r1a1&quot;}">Windows</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Surface_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_8" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/surface" data-m="{&quot;cN&quot;:&quot;W0Nav_Surface_nav&quot;,&quot;id&quot;:&quot;n1c3c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c2c1c9c2m1r1a1&quot;}">Surface</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Xbox_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_9" class="js-subm-uhf-nav-link" href="https://www.xbox.com/" data-m="{&quot;cN&quot;:&quot;W0Nav_Xbox_nav&quot;,&quot;id&quot;:&quot;n1c4c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c2c1c9c2m1r1a1&quot;}">Xbox</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Deals_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_10" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/sale?icid=gm_nav_L0_salepage" data-m="{&quot;cN&quot;:&quot;W0Nav_Deals_nav&quot;,&quot;id&quot;:&quot;n1c5c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c2c1c9c2m1r1a1&quot;}">Deals</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Support_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+            <a id="l1_support" class="js-subm-uhf-nav-link" href="https://support.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;W0Nav_Support_nav&quot;,&quot;id&quot;:&quot;n1c6c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c2c1c9c2m1r1a1&quot;}">Support</a>
+            
+        </li>
+            </ul>
+        </li>
+
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+
+            <button type="button" role="presentation" f-multi-parent="true" aria-expanded="false" data-m="{&quot;id&quot;:&quot;nn1c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c7c2c1c9c2m1r1a1&quot;}">Software</button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Software_WindowsApps_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c7c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_14" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/windows/windows-10-apps" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Software_WindowsApps_nav&quot;,&quot;id&quot;:&quot;n1c2c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c7c2c1c9c2m1r1a1&quot;}">Windows apps</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Software_OneDrive_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c7c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_15" class="js-subm-uhf-nav-link" href="https://onedrive.live.com/about/en-us/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Software_OneDrive_nav&quot;,&quot;id&quot;:&quot;n1c3c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c7c2c1c9c2m1r1a1&quot;}">OneDrive</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Software_Outlook_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c7c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_16" class="js-subm-uhf-nav-link" href="https://outlook.live.com/owa/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Software_Outlook_nav&quot;,&quot;id&quot;:&quot;n1c4c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c7c2c1c9c2m1r1a1&quot;}">Outlook</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Software_Skype_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c7c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_17" class="js-subm-uhf-nav-link" href="https://www.skype.com/en/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Software_Skype_nav&quot;,&quot;id&quot;:&quot;n1c5c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c7c2c1c9c2m1r1a1&quot;}">Skype</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Software_OneNote_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c7c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_18" class="js-subm-uhf-nav-link" href="https://www.onenote.com/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Software_OneNote_nav&quot;,&quot;id&quot;:&quot;n1c6c7c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c7c2c1c9c2m1r1a1&quot;}">OneNote</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m="{&quot;cN&quot;:&quot;PCsAndDevices_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c8c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+
+            <button type="button" role="presentation" f-multi-parent="true" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;GlobalNav_PCsAndDevices_nonnav&quot;,&quot;id&quot;:&quot;nn1c8c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c8c2c1c9c2m1r1a1&quot;}">PCs &amp; Devices  </button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_PCsAndDevices_PCsAndTablets_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c8c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c8c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_20" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/windows/devices" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_PCsAndDevices_PCsAndTablets_nav&quot;,&quot;id&quot;:&quot;n1c2c8c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c8c2c1c9c2m1r1a1&quot;}">PCs &amp; tablets</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_PCAndDevices_Accessories_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c8c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c8c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_21" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/accessories/en-us" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_PCAndDevices_Accessories_nav&quot;,&quot;id&quot;:&quot;n1c3c8c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c8c2c1c9c2m1r1a1&quot;}">Accessories</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:9,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+
+            <button type="button" role="presentation" f-multi-parent="true" aria-expanded="false" data-m="{&quot;id&quot;:&quot;nn1c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c9c2c1c9c2m1r1a1&quot;}">Entertainment</button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Products_DevicesAndXbox_XboxAndGames_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c9c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_23" class="js-subm-uhf-nav-link" href="https://www.xbox.com/en-us/games/xbox-one?xr=shellnav" data-m="{&quot;cN&quot;:&quot;GlobalNav_Products_DevicesAndXbox_XboxAndGames_nav&quot;,&quot;id&quot;:&quot;n1c2c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c9c2c1c9c2m1r1a1&quot;}">Xbox games</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Entertainment_PCGames_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c9c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_24" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/windows/windows-10-games" data-m="{&quot;cN&quot;:&quot;GlobalNav_Entertainment_PCGames_nav&quot;,&quot;id&quot;:&quot;n1c3c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c9c2c1c9c2m1r1a1&quot;}">PC games</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Entertainment_WindowsDigitalGames_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c9c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_25" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/games/windows?icid=TopNavWindowsGames" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Entertainment_WindowsDigitalGames_nav&quot;,&quot;id&quot;:&quot;n1c4c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c9c2c1c9c2m1r1a1&quot;}">Windows digital games</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Entertainment_MoviesAndTV_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c9c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_26" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/movies-and-tv?icid=TopNavMoviesAndTv" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Entertainment_MoviesAndTV_nav&quot;,&quot;id&quot;:&quot;n1c5c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c9c2c1c9c2m1r1a1&quot;}">Movies &amp; TV</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Entertainment_Books_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c9c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_27" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/books" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Entertainment_Books_nav&quot;,&quot;id&quot;:&quot;n1c6c9c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c9c2c1c9c2m1r1a1&quot;}">Books</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:10,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+
+            <button type="button" role="presentation" f-multi-parent="true" aria-expanded="false" data-m="{&quot;id&quot;:&quot;nn1c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c10c2c1c9c2m1r1a1&quot;}">Business</button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Business_MicrosoftAzure_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c10c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_29" class="js-subm-uhf-nav-link" href="https://azure.microsoft.com/en-us/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Business_MicrosoftAzure_nav&quot;,&quot;id&quot;:&quot;n1c2c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c10c2c1c9c2m1r1a1&quot;}">Microsoft Azure</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Business_MicrosoftDynamics365_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c10c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_30" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/dynamics365/home" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Business_MicrosoftDynamics365_nav&quot;,&quot;id&quot;:&quot;n1c3c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c10c2c1c9c2m1r1a1&quot;}">Microsoft Dynamics 365</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Business_Microsoft365_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c10c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_31" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/microsoft-365/?omkt=en-US" data-m="{&quot;cN&quot;:&quot;GlobalNav_Business_Microsoft365_nav&quot;,&quot;id&quot;:&quot;n1c4c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c10c2c1c9c2m1r1a1&quot;}">Microsoft 365</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Business_Enterprise_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c10c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_32" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/enterprise" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Business_Enterprise_nav&quot;,&quot;id&quot;:&quot;n1c5c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c10c2c1c9c2m1r1a1&quot;}">Microsoft Industry</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Business_DataPlatform_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c10c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_33" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/sql-server/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Business_DataPlatform_nav&quot;,&quot;id&quot;:&quot;n1c6c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c10c2c1c9c2m1r1a1&quot;}">Data platform</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_MicrosoftAdvertising_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c7c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c10c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_34" class="js-subm-uhf-nav-link" href="https://go.microsoft.com/fwlink/?linkid=2026638" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_MicrosoftAdvertising_nav&quot;,&quot;id&quot;:&quot;n1c7c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c7c10c2c1c9c2m1r1a1&quot;}">Microsoft Advertising</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Business_Licensing_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c8c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c10c2c1c9c2m1r1a1&quot;}">
+            <a id="Licensing" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/licensing/default" data-m="{&quot;cN&quot;:&quot;GlobalNav_Business_Licensing_nav&quot;,&quot;id&quot;:&quot;n1c8c10c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c8c10c2c1c9c2m1r1a1&quot;}">Licensing</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:11,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+
+            <button type="button" role="presentation" f-multi-parent="true" aria-expanded="false" data-m="{&quot;id&quot;:&quot;nn1c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c11c2c1c9c2m1r1a1&quot;}">Developer &amp; IT  </button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_DeveloperAndIT_.Net_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c11c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_37" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/net/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_DeveloperAndIT_.Net_nav&quot;,&quot;id&quot;:&quot;n1c2c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c11c2c1c9c2m1r1a1&quot;}">.NET</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_DevelopersAndIT_VisualStudio_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c11c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_38" class="js-subm-uhf-nav-link" href="https://visualstudio.microsoft.com/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_DevelopersAndIT_VisualStudio_nav&quot;,&quot;id&quot;:&quot;n1c3c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c11c2c1c9c2m1r1a1&quot;}">Visual Studio</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_ProductsandServices_WindowsServer_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c11c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_39" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/cloud-platform/windows-server" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_ProductsandServices_WindowsServer_nav&quot;,&quot;id&quot;:&quot;n1c4c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c11c2c1c9c2m1r1a1&quot;}">Windows Server</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_DeveloperAndIT_WindowsDevCenter_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c11c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_40" class="js-subm-uhf-nav-link" href="https://developer.microsoft.com/en-us/windows" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_DeveloperAndIT_WindowsDevCenter_nav&quot;,&quot;id&quot;:&quot;n1c5c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c11c2c1c9c2m1r1a1&quot;}">Windows Dev Center</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_DeveloperAndIT_Docs.microsoft.com_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c11c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_41" class="js-subm-uhf-nav-link" href="https://docs.microsoft.com/en-us/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_DeveloperAndIT_Docs.microsoft.com_nav&quot;,&quot;id&quot;:&quot;n1c6c11c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c11c2c1c9c2m1r1a1&quot;}">Docs</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:12,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}">
+
+            <button type="button" role="presentation" f-multi-parent="true" aria-expanded="false" data-m="{&quot;id&quot;:&quot;nn1c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c12c2c1c9c2m1r1a1&quot;}">Other</button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Other_MicrosoftStore_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c12c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_43" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/home" data-m="{&quot;cN&quot;:&quot;GlobalNav_Other_MicrosoftStore_nav&quot;,&quot;id&quot;:&quot;n1c2c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c12c2c1c9c2m1r1a1&quot;}">Microsoft Store</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Other_Microsoft Rewards_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c12c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_44" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/rewards" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Other_Microsoft Rewards_nav&quot;,&quot;id&quot;:&quot;n1c3c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c12c2c1c9c2m1r1a1&quot;}">Microsoft Rewards </a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Products_SoftwareAndServices_FreeDownloadsAndSecurity_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c12c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_45" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/download/default.aspx" data-m="{&quot;cN&quot;:&quot;GlobalNav_Products_SoftwareAndServices_FreeDownloadsAndSecurity_nav&quot;,&quot;id&quot;:&quot;n1c4c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c12c2c1c9c2m1r1a1&quot;}">Free downloads &amp; security</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Products_ForStudentsAndEducators_Education_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c12c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_46" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/education?icid=CNavMSCOML0_Studentsandeducation" data-m="{&quot;cN&quot;:&quot;GlobalNav_Products_ForStudentsAndEducators_Education_nav&quot;,&quot;id&quot;:&quot;n1c5c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c12c2c1c9c2m1r1a1&quot;}">Education</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;More_Other_Store_Locations_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c12c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_47" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/locations/find-a-store?icid=TopNavStoreLocations" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Other_Store_Locations_nav&quot;,&quot;id&quot;:&quot;n1c6c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c12c2c1c9c2m1r1a1&quot;}">Store locations</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m="{&quot;cN&quot;:&quot;Store_More_GiftCards_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c7c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c12c2c1c9c2m1r1a1&quot;}">
+            <a id="shellmenu_48" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/gift-cards" data-m="{&quot;cN&quot;:&quot;GlobalNav_Store_More_GiftCards_nav&quot;,&quot;id&quot;:&quot;n1c7c12c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c7c12c2c1c9c2m1r1a1&quot;}">Gift cards</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+                                                            <li class="f-multi-column-info">
+                                    <a data-m="{&quot;id&quot;:&quot;n13c2c1c9c2m1r1a1&quot;,&quot;sN&quot;:13,&quot;aN&quot;:&quot;c2c1c9c2m1r1a1&quot;}" href="https://www.microsoft.com/en-us/sitemap.aspx" aria-label="" class="c-glyph">View Sitemap</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+</div>
+		<form class="c-search" autocomplete="off" id="searchForm" name="searchForm" role="search" action="https://docs.microsoft.com/en-us/search/" method="GET" title="Search" data-seautosuggest="{&quot;queryParams&quot;:{&quot;market&quot;:&quot;en-us&quot;,&quot;clientId&quot;:&quot;7F27B536-CF6B-4C65-8638-A0F8CBDFCA65&quot;,&quot;sources&quot;:&quot;Microsoft-Terms,Iris-Products,DCatAll-Products&quot;,&quot;filter&quot;:&quot;+ClientType:StoreWeb&quot;,&quot;counts&quot;:&quot;5,1,5&quot;},&quot;familyNames&quot;:{&quot;Apps&quot;:&quot;App&quot;,&quot;Books&quot;:&quot;Book&quot;,&quot;Bundles&quot;:&quot;Bundle&quot;,&quot;Devices&quot;:&quot;Device&quot;,&quot;Fees&quot;:&quot;Fee&quot;,&quot;Games&quot;:&quot;Game&quot;,&quot;MusicAlbums&quot;:&quot;Album&quot;,&quot;MusicTracks&quot;:&quot;Song&quot;,&quot;MusicVideos&quot;:&quot;Video&quot;,&quot;MusicArtists&quot;:&quot;Artist&quot;,&quot;OperatingSystem&quot;:&quot;Operating System&quot;,&quot;Software&quot;:&quot;Software&quot;,&quot;Movies&quot;:&quot;Movie&quot;,&quot;TV&quot;:&quot;TV&quot;,&quot;CSV&quot;:&quot;Gift Card&quot;,&quot;VideoActor&quot;:&quot;Actor&quot;}}" data-seautosuggestapi="https://www.microsoft.com/services/api/v3/suggest" data-m="{&quot;cN&quot;:&quot;GlobalNav_Search_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c1c9c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c1c9c2m1r1a1&quot;}" aria-expanded="false">
+			<input id="cli_shellHeaderSearchInput" aria-label="search expanded" aria-autocomplete="list" aria-controls="universal-header-search-auto-suggest-transparent" aria-owns="universal-header-search-auto-suggest-ul" type="search" name="search" placeholder="Search" data-m="{&quot;cN&quot;:&quot;SearchBox_nav&quot;,&quot;id&quot;:&quot;n1c3c1c9c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c1c9c2m1r1a1&quot;}"><div class="x-screen-reader" aria-live="assertive" role="status"></div>
+			<button id="search" aria-label="Search" class="c-glyph" data-m="{&quot;cN&quot;:&quot;Search_nav&quot;,&quot;id&quot;:&quot;n2c3c1c9c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c3c1c9c2m1r1a1&quot;}" data-bi-dnt="true" data-bi-mto="true" aria-expanded="false">
+				<span role="presentation">Search</span>
+			</button>
+			<div class="m-auto-suggest" id="universal-header-search-auto-suggest-transparent" role="group">
+				<ul class="c-menu" id="universal-header-search-auto-suggest-ul" aria-hidden="true" data-bi-dnt="true" data-bi-mto="true" data-js-auto-suggest-position="default" role="listbox" data-tel="jsll" data-m="{&quot;cN&quot;:&quot;search suggestions_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c3c1c9c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c3c1c9c2m1r1a1&quot;}"></ul>
+			</div>
+			
+		<input name="scope" hidden=""><a class="search-scope" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#" role="button" title="Search filter is &quot;.NET&quot;. Tap to remove." style=""><span class="search-scope-text">.NET</span> <span class="docon docon-navigate-close"></span></a><input name="category" hidden=""></form>
+		<button data-m="{&quot;cN&quot;:&quot;cancel-search&quot;,&quot;pid&quot;:&quot;Cancel Search&quot;,&quot;id&quot;:&quot;nn4c1c9c2m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c1c9c2m1r1a1&quot;}" id="cancel-search" class="cancel-search" aria-label="Cancel Search">
+			<span>Cancel</span>
+		</button>
+				
+			</div>
+		</div>
+		
+		
+	</div>
+	
+</header>
+
+
+
+
+    </div>
+        </div>
+
+    </div>
+</div>
+	<div class="content-header uhf-container has-padding has-default-focus" data-bi-name="content-header">
+		<nav class="has-padding-none-mobile" data-bi-name="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList" role="navigation" aria-label="Breadcrumb">
+			<ul id="page-breadcrumbs" class="breadcrumbs"><!---->
+		<!---->
+		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+			
+			<a itemprop="item" href="https://docs.microsoft.com/en-us/?view=netframework-4.8">
+				Docs
+			</a>
+		</li><!---->
+		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+			
+			<a itemprop="item" href="https://docs.microsoft.com/en-us/dotnet/?view=netframework-4.8">
+				.NET
+			</a>
+		</li><!---->
+		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+			
+			<a itemprop="item" href="https://docs.microsoft.com/en-us/dotnet/api/?view=netframework-4.8">
+				.NET API Browser
+			</a>
+		</li><!---->
+		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+			
+			<a itemprop="item" href="https://docs.microsoft.com/en-us/dotnet/api/system.io?view=netframework-4.8">
+				System.<wbr>IO
+			</a>
+		</li><!---->
+		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+			
+			<a itemprop="item" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher?view=netframework-4.8">
+				File<wbr>System<wbr>Watcher
+			</a>
+		</li><!---->
+		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+			
+			<a itemprop="item" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.enableraisingevents?view=netframework-4.8">
+				Properties
+			</a>
+		</li><!---->
+		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+			
+			<span itemprop="name">
+				Filter
+			</span>
+		</li><!---->
+	<!----></ul>
+		</nav>
+		<div class="content-header-controls">
+			<button type="button" class="contents-button button" data-bi-name="contents-expand" aria-haspopup="true">
+				<span class="icon"><span class="docon docon-menu" aria-hidden="true"></span></span>
+				<span>Contents</span>
+			</button>
+		</div>
+		<div class="content-header-controls exit-focus">
+			<button type="button" class="ap-collapse-behavior ap-expanded button" data-bi-name="ap-collapse" aria-controls="action-panel">
+				<span class="icon"><span class="docon docon-exit-mode" aria-hidden="true"></span></span>
+				<span>Exit focus mode</span>
+			</button>
+		</div>
+		<div id="page-actions" class="is-flex-touch has-flex-justify-content-space-between-touch has-padding-none has-padding-none-mobile">
+			<ul class="action-list has-flex-justify-content-start-mobile is-flex is-flex-row has-flex-wrap">
+				<li>
+<div class="language dropdown has-caret">
+	<button class="dropdown-trigger button is-text is-small" aria-controls="language-menu" aria-expanded="false" title="Language" data-bi-name="language">
+		<span class="icon is-hidden-desktop has-margin-none">
+			<span class="docon docon-code-lang" aria-hidden="true"></span>
+		</span>
+		<span id="lang-title" class="is-visually-hidden-touch has-flex-align-self-start is-hidden-portrait">C#</span>
+		<span class="icon is-hidden-mobile is-hidden-tablet-only" aria-hidden="true">
+			<span class="docon docon-chevron-down-light expanded-indicator"></span>
+		</span>
+	</button>
+	<div class="dropdown-menu has-padding-small" name="language-selector" id="language-selector" role="menu">
+		<ul data-bi-name="language-links">
+				<li><a class="button is-text is-small is-fullwidth has-flex-justify-content-start" data-bi-name="lang-csharp" tabindex="0" aria-selected="true">C#</a></li>
+				<li><a class="button is-text is-small is-fullwidth has-flex-justify-content-start" data-bi-name="lang-vb" tabindex="0" aria-selected="false">VB</a></li>
+				<li><a class="button is-text is-small is-fullwidth has-flex-justify-content-start" data-bi-name="lang-fsharp" tabindex="0" aria-selected="false">F#</a></li>
+				<li><a class="button is-text is-small is-fullwidth has-flex-justify-content-start" data-bi-name="lang-cpp" tabindex="0" aria-selected="false">C++</a></li>
+		</ul>
+	</div>
+</div>				</li>
+							<li id="contenteditbtn">
+									<a href="https://github.com/dotnet/dotnet-api-docs/blob/master/xml/System.IO/FileSystemWatcher.xml" class="button is-text has-inner-focus is-icon-only-touch is-small" title="Edit This Document" data-bi-name="edit">
+									<span class="icon">
+										<span class="docon docon-edit-outline" aria-hidden="true"></span>
+									</span>
+									<span class="is-visually-hidden-touch is-hidden-portrait">Edit</span>
+								</a>
+							</li>
+				<li>
+<div class="sharing dropdown has-caret">
+	<button class="dropdown-trigger button is-text is-fullwidth has-flex-justify-content-start has-inner-focus is-small is-icon-only-touch" aria-controls="sharing-menu" aria-expanded="false" title="Share This Document" data-bi-name="share">
+		<span class="icon" aria-hidden="true">
+			<span class="docon docon-sharing"></span>
+		</span>
+		<span class="is-visually-hidden-touch is-hidden-portrait">Share</span>
+	</button>
+	<div class="dropdown-menu has-padding-small" id="sharing-menu">
+		<ul data-bi-name="share-links">
+			<li>
+				<a class="button is-text is-fullwidth has-flex-justify-content-start has-inner-focus is-small share-twitter" data-bi-name="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdotnet%2Fapi%2Fsystem.io.filesystemwatcher.filter%3Fredirectedfrom%3DMSDN%26view%3Dnetframework-4.8%26WT.mc_id%3Dtwitter&amp;text=FileSystemWatcher.Filter%20Property%20(System.IO)%20%7C%20Microsoft%20Docs&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdotnet%2Fapi%2Fsystem.io.filesystemwatcher.filter%3Fredirectedfrom%3DMSDN%26view%3Dnetframework-4.8%26WT.mc_id%3Dtwitter">
+					<span class="icon">
+						<span class="docon docon-brand-twitter has-text-primary" aria-hidden="true"></span>
+					</span>
+					<span>Twitter</span>
+				</a>
+			</li>
+			<li>
+				<a class="button is-text is-fullwidth has-flex-justify-content-start has-inner-focus is-small share-linkedin" data-bi-name="linkedin" href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdotnet%2Fapi%2Fsystem.io.filesystemwatcher.filter%3Fredirectedfrom%3DMSDN%26view%3Dnetframework-4.8%26WT.mc_id%3Dlinkedin">
+					<span class="icon">
+						<span class="docon docon-brand-linkedin has-text-primary" aria-hidden="true"></span>
+					</span>
+					<span>LinkedIn</span>
+				</a>
+			</li>
+			<li>
+				<a class="button is-text is-fullwidth has-flex-justify-content-start has-inner-focus is-small share-facebook" data-bi-name="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdotnet%2Fapi%2Fsystem.io.filesystemwatcher.filter%3Fredirectedfrom%3DMSDN%26view%3Dnetframework-4.8%26WT.mc_id%3Dfacebook">
+					<span class="icon">
+						<span class="docon docon-brand-facebook has-text-primary" aria-hidden="true"></span>
+					</span>
+					<span>Facebook</span>
+				</a>
+			</li>
+			<li>
+				<a class="button is-text is-fullwidth has-flex-justify-content-start has-inner-focus is-small share-email" data-bi-name="email" href="mailto:?subject=%5BShared%20Article%5D%20FileSystemWatcher.Filter%20Property%20(System.IO)%20%7C%20Microsoft%20Docs&amp;body=FileSystemWatcher.Filter%20Property%20(System.IO)%20%7C%20Microsoft%20Docs%0A%0Ahttps%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdotnet%2Fapi%2Fsystem.io.filesystemwatcher.filter%3Fredirectedfrom%3DMSDN%26view%3Dnetframework-4.8%26WT.mc_id%3Demail">
+					<span class="icon">
+						<span class="docon docon-mail-message-fill has-text-primary" aria-hidden="true"></span>
+					</span>
+					<span>Email</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>				</li>
+				<li>
+<div class="dropdown has-caret">
+	<button class="dropdown-trigger button is-text is-small is-icon-only-touch has-inner-focus" aria-controls="theme-menu" aria-expanded="false" title="Theme" data-bi-name="theme">
+		<span class="icon">
+			<span class="docon docon-sun" aria-hidden="true"></span>
+		</span>
+		<span class="is-visually-hidden-touch is-hidden-portrait">Theme</span>
+	</button>
+	<div class="dropdown-menu" id="theme-menu" role="menu">
+		<div class="theme-selector has-padding-small">
+			<div class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start is-selected" data-theme-to="light" role="menuitem" aria-selected="true">
+					<span class="theme-light has-margin-right-small">
+						<span class="theme-selector-icon css-variable-support has-border is-inline-block has-body-background" aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background"></rect>
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary"></rect>
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary"></rect>
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary"></rect>
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary"></rect>
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary"></rect>
+							</svg>
+						</span>
+					</span>
+					<span>
+Light					</span>
+				</button>
+			</div>
+			<div class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start" data-theme-to="dark" role="menuitem" aria-selected="false">
+					<span class="theme-dark has-margin-right-small">
+						<span class="has-border theme-selector-icon css-variable-support is-inline-block has-body-background" aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background"></rect>
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary"></rect>
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary"></rect>
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary"></rect>
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary"></rect>
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary"></rect>
+							</svg>
+						</span>
+					</span>
+					<span>
+Dark					</span>
+				</button>
+			</div>
+			<div class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start" data-theme-to="high-contrast" role="menuitem" aria-selected="false">
+					<span class="theme-high-contrast has-margin-right-small">
+						<span class="has-border theme-selector-icon css-variable-support is-inline-block has-body-background" aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background"></rect>
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary"></rect>
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary"></rect>
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary"></rect>
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary"></rect>
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary"></rect>
+							</svg>
+						</span>
+					</span>
+					<span>
+High contrast					</span>
+				</button>
+			</div>
+		</div>
+	</div>
+</div>				</li>
+				<li>
+					<a class="docs-sign-in auth-status-determined not-authenticated button is-text has-inner-focus has-text-primary is-small" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#">Sign in</a>
+					<div class="dropdown has-caret auth-status-determined authenticated">
+						<button class="dropdown-trigger button is-text has-inner-focus is-small is-icon-only-touch has-inner-focus" aria-label="Your Account" aria-controls="user-menu" aria-expanded="false">
+							<span class="icon" aria-hidden="true">
+								<span class="image">
+									<img class="has-body-background-medium is-rounded" data-profile-property="avatarUrl">
+								</span>
+							</span>
+							<span class="is-truncated has-margin-left-small" data-profile-property="userName"></span>
+						</button>
+						<div class="dropdown-menu box" id="user-menu" role="menu">
+							<div class="media is-user-dir">
+								<div class="media-left">
+									<span class="image is-64x64" aria-hidden="true">
+										<img class="has-body-background-medium is-rounded" data-profile-property="avatarUrl">
+									</span>
+								</div>
+								<div class="media-content">
+									<p class="title">
+										<span class="is-truncated" style="max-width: 200px" data-profile-property="userName"></span>
+									</p>
+									<p class="subtitle has-margin-bottom-none">
+										<span class="is-truncated" style="max-width: 200px" data-profile-property="upn"></span>
+									</p>
+									<ul class="is-unstyled has-margin-none has-margin-top-small">
+										<li><a href="https://docs.microsoft.com/profile" data-profile-property="profileUrl">Profile</a></li>
+										<li><a class="docs-sign-out" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#">Sign out</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<button type="button" class="contents-button button is-small is-text is-hidden-tablet has-inner-focus is-hidden-tablet" aria-label="Contents" data-bi-name="contents-expand-">
+				<span class="icon">
+					<span class="docon docon-editor-list-bullet" aria-hidden="true"></span>
+				</span>
+				<span>Contents</span>
+			</button>
+		</div>
+	</div>
+
+		<div id="banner-holder" class="has-default-focus has-overflow-hidden">
+		</div>
+
+	<div id="disclaimer-holder" class="has-overflow-hidden has-default-focus"></div>
+	</div>
+
+	<div class="mainContainer  uhf-container has-top-padding  has-default-focus" data-bi-name="body">
+
+		<div class="columns has-large-gaps is-gapless-mobile ">
+
+			<div id="left-container" class="left-container is-hidden-mobile column is-one-third-tablet is-one-quarter-desktop">
+				<nav id="affixed-left-container" class="is-fixed is-flex is-flex-column" role="navigation" aria-label="Primary" style="width: 274.364px; top: 24px; bottom: 24px;" data-bi-name="left toc"><div class="moniker-picker" data-bi-name="moniker-picker">
+		<button class="products has-inner-focus" id="ax-2" aria-controls="ax-3" aria-expanded="false">
+			<span class="visually-hidden">Select Version</span>
+			<span>.NET Framework 4.8</span>
+		</button>
+		<div class="products" id="ax-3" role="menu" aria-labelledby="ax-2" style="z-index: 5000">
+			<span aria-hidden="true">Product</span>
+			<ul aria-label="Product"><li>
+				<button class="versions has-inner-focus" id="ax-4" role="menuitem" aria-controls="ax-5" aria-expanded="false" tabindex="-1">
+					.NET Core
+				</button>
+				<div class="versions" id="ax-5" role="menu" aria-labelledby="ax-4">
+					<span aria-hidden="true">Version</span>
+					<ul aria-label="Version"><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netcore-3.0" aria-label=".NET Core 3.0 Preview 7" data-default="false" tabindex="-1">3.0 Preview 7</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netcore-2.2" aria-label=".NET Core 2.2" data-default="true" tabindex="-1">2.2</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netcore-2.1" aria-label=".NET Core 2.1" data-default="false" tabindex="-1">2.1</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netcore-2.0" aria-label=".NET Core 2.0" data-default="false" tabindex="-1">2.0</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netcore-1.1" aria-label=".NET Core 1.1" data-default="false" tabindex="-1">1.1</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netcore-1.0" aria-label=".NET Core 1.0" data-default="false" tabindex="-1">1.0</a></li></ul>
+				<p class="moniker-auxillary-links"></p></div>
+			</li><li>
+				<button class="versions has-inner-focus" id="ax-6" role="menuitem" aria-controls="ax-7" aria-expanded="false" tabindex="-1">
+					.NET Framework
+				</button>
+				<div class="versions" id="ax-7" role="menu" aria-labelledby="ax-6">
+					<span aria-hidden="true">Version</span>
+					<ul aria-label="Version"><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-4.8" aria-label=".NET Framework 4.8" data-default="true" tabindex="-1">4.8</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-4.7.2" aria-label=".NET Framework 4.7.2" data-default="false" tabindex="-1">4.7.2</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-4.7.1" aria-label=".NET Framework 4.7.1" data-default="false" tabindex="-1">4.7.1</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-4.7" aria-label=".NET Framework 4.7" data-default="false" tabindex="-1">4.7</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-4.6.2" aria-label=".NET Framework 4.6.2" data-default="false" tabindex="-1">4.6.2</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-4.6.1" aria-label=".NET Framework 4.6.1" data-default="false" tabindex="-1">4.6.1</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-4.6" aria-label=".NET Framework 4.6" data-default="false" tabindex="-1">4.6</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-4.5.2" aria-label=".NET Framework 4.5.2" data-default="false" tabindex="-1">4.5.2</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-4.5.1" aria-label=".NET Framework 4.5.1" data-default="false" tabindex="-1">4.5.1</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-4.5" aria-label=".NET Framework 4.5" data-default="false" tabindex="-1">4.5</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-4.0" aria-label=".NET Framework 4.0" data-default="false" tabindex="-1">4.0</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-3.5" aria-label=".NET Framework 3.5" data-default="false" tabindex="-1">3.5</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-3.0" aria-label=".NET Framework 3.0" data-default="false" tabindex="-1">3.0</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-2.0" aria-label=".NET Framework 2.0" data-default="false" tabindex="-1">2.0</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-1.1" aria-label=".NET Framework 1.1" data-default="false" tabindex="-1">1.1</a></li></ul>
+				<p class="moniker-auxillary-links"></p></div>
+			</li><li>
+				<button class="versions has-inner-focus" id="ax-8" role="menuitem" aria-controls="ax-9" aria-expanded="false" tabindex="-1">
+					.NET Platform Extensions
+				</button>
+				<div class="versions" id="ax-9" role="menu" aria-labelledby="ax-8">
+					<span aria-hidden="true">Version</span>
+					<ul aria-label="Version"><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=dotnet-plat-ext-3.0" aria-label=".NET Platform Extensions 3.0 Preview 7" data-default="false" tabindex="-1">3.0 Preview 7</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=dotnet-plat-ext-2.1" aria-label=".NET Platform Extensions 2.1" data-default="true" tabindex="-1">2.1</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=dotnet-plat-ext-2.2" aria-label=".NET Platform Extensions 2.2" data-default="false" tabindex="-1">2.2</a></li></ul>
+				<p class="moniker-auxillary-links"></p></div>
+			</li><li>
+				<button class="versions has-inner-focus" id="ax-10" role="menuitem" aria-controls="ax-11" aria-expanded="false" tabindex="-1">
+					.NET Standard
+				</button>
+				<div class="versions" id="ax-11" role="menu" aria-labelledby="ax-10">
+					<span aria-hidden="true">Version</span>
+					<ul aria-label="Version"><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netstandard-2.1" aria-label=".NET Standard 2.1 Preview" data-default="true" tabindex="-1">2.1 Preview</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netstandard-2.0" aria-label=".NET Standard 2.0" data-default="false" tabindex="-1">2.0</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netstandard-1.6" aria-label=".NET Standard 1.6" data-default="false" tabindex="-1">1.6</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netstandard-1.5" aria-label=".NET Standard 1.5" data-default="false" tabindex="-1">1.5</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netstandard-1.4" aria-label=".NET Standard 1.4" data-default="false" tabindex="-1">1.4</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netstandard-1.3" aria-label=".NET Standard 1.3" data-default="false" tabindex="-1">1.3</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netstandard-1.2" aria-label=".NET Standard 1.2" data-default="false" tabindex="-1">1.2</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netstandard-1.1" aria-label=".NET Standard 1.1" data-default="false" tabindex="-1">1.1</a></li><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netstandard-1.0" aria-label=".NET Standard 1.0" data-default="false" tabindex="-1">1.0</a></li></ul>
+				<p class="moniker-auxillary-links"></p></div>
+			</li><li>
+				<button class="versions has-inner-focus" id="ax-12" role="menuitem" aria-controls="ax-13" aria-expanded="false" tabindex="-1">
+					UWP
+				</button>
+				<div class="versions" id="ax-13" role="menu" aria-labelledby="ax-12">
+					<span aria-hidden="true">Version</span>
+					<ul aria-label="Version"><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=dotnet-uwp-10.0" aria-label="UWP 10.0" data-default="true" tabindex="-1">10.0</a></li></ul>
+				<p class="moniker-auxillary-links"></p></div>
+			</li><li>
+				<button class="versions has-inner-focus" id="ax-14" role="menuitem" aria-controls="ax-15" aria-expanded="false" tabindex="-1">
+					Xamarin.<wbr>Android
+				</button>
+				<div class="versions" id="ax-15" role="menu" aria-labelledby="ax-14">
+					<span aria-hidden="true">Version</span>
+					<ul aria-label="Version"><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=xamarinandroid-7.1" aria-label="Xamarin.Android 7.1" data-default="true" tabindex="-1">7.1</a></li></ul>
+				<p class="moniker-auxillary-links"></p></div>
+			</li><li>
+				<button class="versions has-inner-focus" id="ax-16" role="menuitem" aria-controls="ax-17" aria-expanded="false" tabindex="-1">
+					Xamarin.<wbr>iOS
+				</button>
+				<div class="versions" id="ax-17" role="menu" aria-labelledby="ax-16">
+					<span aria-hidden="true">Version</span>
+					<ul aria-label="Version"><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=xamarinios-10.8" aria-label="Xamarin.iOS 10.8" data-default="true" tabindex="-1">10.8</a></li></ul>
+				<p class="moniker-auxillary-links"></p></div>
+			</li><li>
+				<button class="versions has-inner-focus" id="ax-18" role="menuitem" aria-controls="ax-19" aria-expanded="false" tabindex="-1">
+					Xamarin.<wbr>Mac
+				</button>
+				<div class="versions" id="ax-19" role="menu" aria-labelledby="ax-18">
+					<span aria-hidden="true">Version</span>
+					<ul aria-label="Version"><li><a class="preserve-view has-inner-focus" role="menuitem" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=xamarinmac-3.0" aria-label="Xamarin.Mac 3.0" data-default="true" tabindex="-1">3.0</a></li></ul>
+				<p class="moniker-auxillary-links"></p></div>
+			</li></ul>
+		</div></div><form action="javascript:" role="search" aria-label="Search" class="is-full-width has-margin-bottom-small"><label class="visually-hidden" for="ax-0">Search</label><div class="autocomplete is-block" data-bi-name="autocomplete"><!---->
+		<div class="control has-icons-left">
+			<input role="combobox" maxlength="100" aria-autocomplete="list" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" id="ax-0" class="autocomplete-input input control has-icons-left is-small is-full-width" type="text" aria-expanded="false" aria-owns="ax-1-listbox" aria-activedescendant="" placeholder="Search">
+
+			<span class="icon is-small is-left" aria-hidden="true">
+				<span class="icon docon docon-search"></span>
+			</span>
+
+			<span class="autocomplete-loader loader has-text-primary" aria-hidden="true" hidden=""></span>
+		</div>
+
+		<ul class="autocomplete-suggestions is-vertically-scrollable" role="listbox" id="ax-1-listbox" hidden="">
+			
+		</ul><!----></div></form><ul class="tree is-vertically-scrollable has-flex-grow has-flex-shrink" role="tree" aria-label="Table of contents" data-bi-name="tree"><li data-moniker="dotnet-plat-ext-2.1 dotnet-plat-ext-2.2 dotnet-plat-ext-3.0 dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io?view=netframework-4.8">System.<wbr>IO</a></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Binary<wbr>Reader</span></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Binary<wbr>Writer</span></li><li data-moniker="netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Buffered<wbr>Stream</span></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Directory</span></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Directory<wbr>Info</span></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Directory<wbr>Not<wbr>Found<wbr>Exception</span></li><li data-moniker="netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Drive<wbr>Info</span></li><li data-moniker="netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Drive<wbr>Not<wbr>Found<wbr>Exception</span></li><li data-moniker="netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.drivetype?view=netframework-4.8">Drive<wbr>Type</a></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>End<wbr>OfStream<wbr>Exception</span></li><li data-moniker="netcore-2.1 netcore-2.2 netcore-3.0 netstandard-2.1" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Enumeration<wbr>Options</span></li><li data-moniker="netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Error<wbr>Event<wbr>Args</span></li><li data-moniker="netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.erroreventhandler?view=netframework-4.8">Error<wbr>Event<wbr>Handler</a></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>File</span></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.fileaccess?view=netframework-4.8">File<wbr>Access</a></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.fileattributes?view=netframework-4.8">File<wbr>Attributes</a></li><li data-moniker="dotnet-plat-ext-2.1 dotnet-plat-ext-2.2 dotnet-plat-ext-3.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>File<wbr>Format<wbr>Exception</span></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>File<wbr>Info</span></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>File<wbr>Load<wbr>Exception</span></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filemode?view=netframework-4.8">File<wbr>Mode</a></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>File<wbr>Not<wbr>Found<wbr>Exception</span></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.fileoptions?view=netframework-4.8">File<wbr>Options</a></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.fileshare?view=netframework-4.8">File<wbr>Share</a></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>File<wbr>Stream</span></li><li data-moniker="dotnet-plat-ext-2.1 dotnet-plat-ext-2.2 dotnet-plat-ext-3.0 netcore-1.0 netcore-1.1" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>File<wbr>System<wbr>Acl<wbr>Extensions</span></li><li data-moniker="netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>File<wbr>System<wbr>Event<wbr>Args</span></li><li data-moniker="netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemeventhandler?view=netframework-4.8">File<wbr>System<wbr>Event<wbr>Handler</a></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>File<wbr>System<wbr>Info</span></li><li data-moniker="netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item is-expanded" role="treeitem" tabindex="-1" aria-expanded="true"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>File<wbr>System<wbr>Watcher</span><ul class="tree-group" role="group"><li data-moniker="netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher?view=netframework-4.8">File<wbr>System<wbr>Watcher</a></li><li role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.-ctor?view=netframework-4.8">Constructors</a></li><li class="tree-item is-expanded" role="treeitem" tabindex="-1" aria-expanded="true"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Properties</span><ul class="tree-group" role="group"><li role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.enableraisingevents?view=netframework-4.8">Enable<wbr>Raising<wbr>Events</a></li><li role="none"><a class="tree-item is-leaf is-selected" role="treeitem" tabindex="0" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-4.8">Filter</a></li><li role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filters?view=netframework-4.8">Filters</a></li><li role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.includesubdirectories?view=netframework-4.8">Include<wbr>Subdirectories</a></li><li role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.internalbuffersize?view=netframework-4.8">Internal<wbr>Buffer<wbr>Size</a></li><li role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.notifyfilter?view=netframework-4.8">Notify<wbr>Filter</a></li><li role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.path?view=netframework-4.8">Path</a></li><li role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.site?view=netframework-4.8">Site</a></li><li role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.synchronizingobject?view=netframework-4.8">Synchronizing<wbr>Object</a></li></ul></li><li class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Methods</span></li><li class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Events</span></li></ul></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.handleinheritability?view=netframework-4.8">Handle<wbr>Inheritability</a></li><li data-moniker="netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Internal<wbr>Buffer<wbr>Overflow<wbr>Exception</span></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Invalid<wbr>Data<wbr>Exception</span></li><li data-moniker="netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>IODescription<wbr>Attribute</span></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>IOException</span></li><li data-moniker="netcore-2.1 netcore-2.2 netcore-3.0 netstandard-2.1" role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.matchcasing?view=netframework-4.8">Match<wbr>Casing</a></li><li data-moniker="netcore-2.1 netcore-2.2 netcore-3.0 netstandard-2.1" role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.matchtype?view=netframework-4.8">Match<wbr>Type</a></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Memory<wbr>Stream</span></li><li data-moniker="netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.notifyfilters?view=netframework-4.8">Notify<wbr>Filters</a></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Path</span></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Path<wbr>Too<wbr>Long<wbr>Exception</span></li><li data-moniker="netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Pipe<wbr>Exception</span></li><li data-moniker="netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Renamed<wbr>Event<wbr>Args</span></li><li data-moniker="netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.renamedeventhandler?view=netframework-4.8">Renamed<wbr>Event<wbr>Handler</a></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.searchoption?view=netframework-4.8">Search<wbr>Option</a></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.seekorigin?view=netframework-4.8">Seek<wbr>Origin</a></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Stream</span></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Stream<wbr>Reader</span></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Stream<wbr>Writer</span></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>String<wbr>Reader</span></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>String<wbr>Writer</span></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Text<wbr>Reader</span></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.0 netstandard-1.1 netstandard-1.2 netstandard-1.3 netstandard-1.4 netstandard-1.5 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Text<wbr>Writer</span></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Unmanaged<wbr>Memory<wbr>Accessor</span></li><li data-moniker="dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Unmanaged<wbr>Memory<wbr>Stream</span></li><li data-moniker="netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Wait<wbr>For<wbr>Changed<wbr>Result</span></li><li data-moniker="netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0" role="none"><a class="tree-item is-leaf" role="treeitem" tabindex="-1" data-bi-name="tree-leaf" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.watcherchangetypes?view=netframework-4.8">Watcher<wbr>Change<wbr>Types</a></li><li data-moniker="dotnet-plat-ext-3.0 dotnet-uwp-10.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Windows<wbr>Runtime<wbr>Storage<wbr>Extensions</span></li><li data-moniker="dotnet-plat-ext-3.0 dotnet-uwp-10.0" class="tree-item" role="treeitem" tabindex="-1" aria-expanded="false"><span class="tree-expander" data-bi-name="tree-expander"><span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true"></span>Windows<wbr>Runtime<wbr>Stream<wbr>Extensions</span></li></ul><a class="button is-small is-text has-flex-justify-content-start has-inner-focus has-margin-top-small has-border-top has-border-bottom has-flex-shrink-none" href="https://docs.microsoft.com/en-us/dotnet/opbuildpdf/api/_splitted/System.IO/toc.pdf?branch=live&amp;view=netframework-4.8" data-bi-name="downloadPdf"><!---->
+		<span class="icon is-size-8 has-text-subtle">
+			<span aria-hidden="true" class="docon docon-arrow-down"></span>
+		</span>
+		<span><!---->Download PDF<!----></span><!----></a></nav>
+			</div>
+
+			<section class="primary-holder column is-two-thirds-tablet is-three-quarters-desktop">
+				<div class="columns is-gapless-mobile has-large-gaps ">
+
+
+				<div id="main-column" class="column  is-full is-four-fifths-desktop ">
+
+					<main id="main" role="main" class="content " data-bi-name="content" lang="en-us" dir="ltr">
+
+
+
+						
+
+
+
+						<!-- <content> -->
+							
+  
+  	<a id="System_IO_FileSystemWatcher_Filter"></a>
+  
+  <h1>
+      <span class="lang-cpp" hidden="">File<wbr>System<wbr>Watcher.<wbr>Filter</span>
+      <span class="lang-csharp">File<wbr>System<wbr>Watcher.<wbr>Filter</span>
+      <span class="lang-fsharp" hidden="">File<wbr>System<wbr>Watcher.<wbr>Filter</span>
+      <span class="lang-vb" hidden="">File<wbr>System<wbr>Watcher.<wbr>Filter</span>
+      Property
+  </h1>
+  
+  			<h2 class="hiddenAnchor" id="definition">Definition<a class="docon docon-link heading-anchor" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#definition" aria-labelledby="definition"></a></h2>
+  
+  <div class="metadata">
+  		<dl class="attributeList">
+  			<dt>Namespace:</dt>
+  			<dd>
+  					<span class="lang-cpp break-text" hidden=""><a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io?view=netframework-4.8" data-linktype="relative-path">System.<wbr>IO</a></span>
+  					<span class="lang-csharp break-text"><a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io?view=netframework-4.8" data-linktype="relative-path">System.<wbr>IO</a></span>
+  					<span class="lang-fsharp break-text" hidden=""><a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io?view=netframework-4.8" data-linktype="relative-path">System.<wbr>IO</a></span>
+  					<span class="lang-vb break-text" hidden=""><a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io?view=netframework-4.8" data-linktype="relative-path">System.<wbr>IO</a></span>
+  			</dd>
+  		</dl>
+  
+  		<dl class="attributeList">
+  			<dt>Assemblies:</dt><dd>System.IO.FileSystem.Watcher.dll, System.dll, netstandard.dll</dd>
+  		</dl>
+  
+  </div>
+  
+  
+  <nav id="center-doc-outline" class="doc-outline is-hidden-desktop" data-bi-name="intopic toc" role="navigation" aria-label="On page navigation">
+    <h3>In this article</h3>
+  <ol><li><a href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#definition">Definition</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#examples">Examples</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#remarks">Remarks</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#applies-to">Applies to</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#see-also">See also</a></li></ol></nav>
+  
+  	
+  	<div data-moniker=" netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">
+  					<div class="summaryHolder">
+  				<div class="summary clearFix">
+  					<p>Gets or sets the filter string used to determine what files are monitored in a directory.</p>
+
+  					
+  				</div>
+  			</div>
+  	
+  	
+  			<pre class="wrap has-inner-focus" tabindex="0" hidden=""><code class="cpp lang-cpp" dir="ltr" data-author-content="public:
+ property System::String ^ Filter { System::String ^ get(); void set(System::String ^ value); };">public:
+ property System::String ^ Filter { System::String ^ get(); void set(System::String ^ value); };</code></pre>
+  			<div class="codeHeader" id="code-try-0" data-bi-name="code-header"><span class="language">C#</span>
+			<button class="action" data-bi-name="copy" aria-label="Copy code">
+				<span class="docon docon-edit-copy" role="presentation"></span>
+				<span>Copy</span>
+			</button></div><pre class="wrap has-inner-focus" tabindex="0"><code class="csharp lang-csharp" dir="ltr" data-author-content="[System.ComponentModel.TypeConverter(&quot;System.Diagnostics.Design.StringValueConverter, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&quot;)]
+[System.IO.IODescription(&quot;File name filter pattern&quot;)]
+[System.ComponentModel.TypeConverter(&quot;System.Diagnostics.Design.StringValueConverter, System.Design, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&quot;)]
+[System.IO.IODescription(&quot;FSW_Filter&quot;)]
+[System.ComponentModel.TypeConverter(&quot;System.Diagnostics.Design.StringValueConverter, System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&quot;)]
+[System.ComponentModel.SettingsBindable(true)]
+public string Filter { get; set; }">[<span class="hljs-meta">System.ComponentModel.TypeConverter(<span class="hljs-string">"System.Diagnostics.Design.StringValueConverter, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"</span>)</span>]
+[<span class="hljs-meta">System.IO.IODescription(<span class="hljs-string">"File name filter pattern"</span>)</span>]
+[<span class="hljs-meta">System.ComponentModel.TypeConverter(<span class="hljs-string">"System.Diagnostics.Design.StringValueConverter, System.Design, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"</span>)</span>]
+[<span class="hljs-meta">System.IO.IODescription(<span class="hljs-string">"FSW_Filter"</span>)</span>]
+[<span class="hljs-meta">System.ComponentModel.TypeConverter(<span class="hljs-string">"System.Diagnostics.Design.StringValueConverter, System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"</span>)</span>]
+[<span class="hljs-meta">System.ComponentModel.SettingsBindable(true)</span>]
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">string</span> Filter { <span class="hljs-keyword">get</span>; <span class="hljs-keyword">set</span>; }</code></pre>
+  			<pre class="wrap has-inner-focus" tabindex="0" hidden=""><code class="fsharp lang-fsharp" dir="ltr" data-author-content="member this.Filter : string with get, set">member this.Filter : string with get, set</code></pre>
+  			<pre class="wrap has-inner-focus" tabindex="0" hidden=""><code class="vb lang-vb" dir="ltr" data-author-content="Public Property Filter As String">Public Property Filter As String</code></pre>
+  	
+  	
+  	
+  	
+  				<h4 class="propertyInfoTitle stack" id="property-value">Property Value<a class="docon docon-link heading-anchor" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#property-value" aria-labelledby="property-value"></a></h4>
+  				<div class="propertyInfo">
+  				<div class="subtle">
+  						<span class="lang-cpp" hidden=""><a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.8" data-linktype="relative-path">String</a></span>
+  						<span class="lang-csharp"><a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.8" data-linktype="relative-path">String</a></span>
+  						<span class="lang-fsharp" hidden=""><a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.8" data-linktype="relative-path">String</a></span>
+  						<span class="lang-vb" hidden=""><a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.8" data-linktype="relative-path">String</a></span>
+  				</div>
+  				<p>The filter string. The default is "*.*" (Watches all files.)</p>
+
+  				</div>
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  				<h2 id="examples">Examples<a class="docon docon-link heading-anchor" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#examples" aria-labelledby="examples"></a></h2>
+  			<p>The following example creates a <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher?view=netframework-4.8" data-linktype="relative-path">FileSystemWatcher</a> to watch the directory specified at run time. The component is set to watch for changes in <code>LastWrite</code> and <code>LastAccess</code> time, the creation, deletion, or renaming of text files in the directory. If a file is changed, created, or deleted, the path to the file prints to the console. When a file is renamed, the old and new paths print to the console.  </p>
+<pre tabindex="0" class="has-inner-focus" hidden=""><code class="lang-cpp" data-src="https://github.com/dotnet/samples/blob/live/snippets/cpp/VS_Snippets_CLR_Classic/classic%20NotifyFilters%20Example/CPP/source.cpp" name="Classic NotifyFilters Example#1" data-author-content="#using &lt;System.dll&gt;
+
+using namespace System;
+using namespace System::IO;
+using namespace System::Security::Permissions;
+
+public ref class Watcher
+{
+private:
+   // Define the event handlers.
+   static void OnChanged( Object^ /*source*/, FileSystemEventArgs^ e )
+   {
+      // Specify what is done when a file is changed, created, or deleted.
+      Console::WriteLine( &quot;File: {0} {1}&quot;, e-&gt;FullPath, e-&gt;ChangeType );
+   }
+
+   static void OnRenamed( Object^ /*source*/, RenamedEventArgs^ e )
+   {
+      // Specify what is done when a file is renamed.
+      Console::WriteLine( &quot;File: {0} renamed to {1}&quot;, e-&gt;OldFullPath, e-&gt;FullPath );
+   }
+
+public:
+   [PermissionSet(SecurityAction::Demand, Name=&quot;FullTrust&quot;)]
+   int static run()
+   {
+      array&lt;String^&gt;^args = System::Environment::GetCommandLineArgs();
+
+      // If a directory is not specified, exit program.
+      if ( args-&gt;Length != 2 )
+      {
+         // Display the proper way to call the program.
+         Console::WriteLine( &quot;Usage: Watcher.exe (directory)&quot; );
+         return 0;
+      }
+
+      // Create a new FileSystemWatcher and set its properties.
+      FileSystemWatcher^ watcher = gcnew FileSystemWatcher;
+      watcher-&gt;Path = args[ 1 ];
+
+      /* Watch for changes in LastAccess and LastWrite times, and 
+          the renaming of files or directories. */
+      watcher-&gt;NotifyFilter = static_cast&lt;NotifyFilters&gt;(NotifyFilters::LastAccess |
+            NotifyFilters::LastWrite | NotifyFilters::FileName | NotifyFilters::DirectoryName);
+
+      // Only watch text files.
+      watcher-&gt;Filter = &quot;*.txt&quot;;
+
+      // Add event handlers.
+      watcher-&gt;Changed += gcnew FileSystemEventHandler( Watcher::OnChanged );
+      watcher-&gt;Created += gcnew FileSystemEventHandler( Watcher::OnChanged );
+      watcher-&gt;Deleted += gcnew FileSystemEventHandler( Watcher::OnChanged );
+      watcher-&gt;Renamed += gcnew RenamedEventHandler( Watcher::OnRenamed );
+
+      // Begin watching.
+      watcher-&gt;EnableRaisingEvents = true;
+
+      // Wait for the user to quit the program.
+      Console::WriteLine( &quot;Press \&#39;q\&#39; to quit the sample.&quot; );
+      while ( Console::Read() != &#39;q&#39; );
+
+      return 0;
+   }
+};
+
+int main() {
+   Watcher::run();
+}
+">#using &lt;System.dll&gt;
+
+using namespace System;
+using namespace System::IO;
+using namespace System::Security::Permissions;
+
+public ref class Watcher
+{
+private:
+   // Define the event handlers.
+   static void OnChanged( Object^ /*source*/, FileSystemEventArgs^ e )
+   {
+      // Specify what is done when a file is changed, created, or deleted.
+      Console::WriteLine( "File: {0} {1}", e-&gt;FullPath, e-&gt;ChangeType );
+   }
+
+   static void OnRenamed( Object^ /*source*/, RenamedEventArgs^ e )
+   {
+      // Specify what is done when a file is renamed.
+      Console::WriteLine( "File: {0} renamed to {1}", e-&gt;OldFullPath, e-&gt;FullPath );
+   }
+
+public:
+   [PermissionSet(SecurityAction::Demand, Name="FullTrust")]
+   int static run()
+   {
+      array&lt;String^&gt;^args = System::Environment::GetCommandLineArgs();
+
+      // If a directory is not specified, exit program.
+      if ( args-&gt;Length != 2 )
+      {
+         // Display the proper way to call the program.
+         Console::WriteLine( "Usage: Watcher.exe (directory)" );
+         return 0;
+      }
+
+      // Create a new FileSystemWatcher and set its properties.
+      FileSystemWatcher^ watcher = gcnew FileSystemWatcher;
+      watcher-&gt;Path = args[ 1 ];
+
+      /* Watch for changes in LastAccess and LastWrite times, and 
+          the renaming of files or directories. */
+      watcher-&gt;NotifyFilter = static_cast&lt;NotifyFilters&gt;(NotifyFilters::LastAccess |
+            NotifyFilters::LastWrite | NotifyFilters::FileName | NotifyFilters::DirectoryName);
+
+      // Only watch text files.
+      watcher-&gt;Filter = "*.txt";
+
+      // Add event handlers.
+      watcher-&gt;Changed += gcnew FileSystemEventHandler( Watcher::OnChanged );
+      watcher-&gt;Created += gcnew FileSystemEventHandler( Watcher::OnChanged );
+      watcher-&gt;Deleted += gcnew FileSystemEventHandler( Watcher::OnChanged );
+      watcher-&gt;Renamed += gcnew RenamedEventHandler( Watcher::OnRenamed );
+
+      // Begin watching.
+      watcher-&gt;EnableRaisingEvents = true;
+
+      // Wait for the user to quit the program.
+      Console::WriteLine( "Press \'q\' to quit the sample." );
+      while ( Console::Read() != 'q' );
+
+      return 0;
+   }
+};
+
+int main() {
+   Watcher::run();
+}
+</code></pre><div class="codeHeader" id="code-try-1" data-bi-name="code-header"><span class="language">C#</span>
+			<button class="action" data-bi-name="copy" aria-label="Copy code">
+				<span class="docon docon-edit-copy" role="presentation"></span>
+				<span>Copy</span>
+			</button></div><pre tabindex="0" class="has-inner-focus"><code class="lang-csharp" data-src="https://github.com/dotnet/samples/blob/live/snippets/csharp/VS_Snippets_CLR_Classic/classic%20NotifyFilters%20Example/CS/source.cs" name="Classic NotifyFilters Example#1" data-author-content="using System;
+using System.IO;
+using System.Security.Permissions;
+
+public class Watcher
+{
+    public static void Main()
+    {
+        Run();
+    }
+
+    [PermissionSet(SecurityAction.Demand, Name = &quot;FullTrust&quot;)]
+    private static void Run()
+    {
+        string[] args = Environment.GetCommandLineArgs();
+
+        // If a directory is not specified, exit program.
+        if (args.Length != 2)
+        {
+            // Display the proper way to call the program.
+            Console.WriteLine(&quot;Usage: Watcher.exe (directory)&quot;);
+            return;
+        }
+
+        // Create a new FileSystemWatcher and set its properties.
+        using (FileSystemWatcher watcher = new FileSystemWatcher())
+        {
+            watcher.Path = args[1];
+
+            // Watch for changes in LastAccess and LastWrite times, and
+            // the renaming of files or directories.
+            watcher.NotifyFilter = NotifyFilters.LastAccess
+                                 | NotifyFilters.LastWrite
+                                 | NotifyFilters.FileName
+                                 | NotifyFilters.DirectoryName;
+
+            // Only watch text files.
+            watcher.Filter = &quot;*.txt&quot;;
+
+            // Add event handlers.
+            watcher.Changed += OnChanged;
+            watcher.Created += OnChanged;
+            watcher.Deleted += OnChanged;
+            watcher.Renamed += OnRenamed;
+
+            // Begin watching.
+            watcher.EnableRaisingEvents = true;
+
+            // Wait for the user to quit the program.
+            Console.WriteLine(&quot;Press &#39;q&#39; to quit the sample.&quot;);
+            while (Console.Read() != &#39;q&#39;) ;
+        }
+    }
+
+    // Define the event handlers.
+    private static void OnChanged(object source, FileSystemEventArgs e) =&gt;
+        // Specify what is done when a file is changed, created, or deleted.
+        Console.WriteLine($&quot;File: {e.FullPath} {e.ChangeType}&quot;);
+
+    private static void OnRenamed(object source, RenamedEventArgs e) =&gt;
+        // Specify what is done when a file is renamed.
+        Console.WriteLine($&quot;File: {e.OldFullPath} renamed to {e.FullPath}&quot;);
+}
+"><span class="hljs-keyword">using</span> System;
+<span class="hljs-keyword">using</span> System.IO;
+<span class="hljs-keyword">using</span> System.Security.Permissions;
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Watcher</span>
+{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span>(<span class="hljs-params"></span>)
+    </span>{
+        Run();
+    }
+
+    [<span class="hljs-meta">PermissionSet(SecurityAction.Demand, Name = <span class="hljs-string">"FullTrust"</span>)</span>]
+    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Run</span>(<span class="hljs-params"></span>)
+    </span>{
+        <span class="hljs-keyword">string</span>[] args = Environment.GetCommandLineArgs();
+
+        <span class="hljs-comment">// If a directory is not specified, exit program.</span>
+        <span class="hljs-keyword">if</span> (args.Length != <span class="hljs-number">2</span>)
+        {
+            <span class="hljs-comment">// Display the proper way to call the program.</span>
+            Console.WriteLine(<span class="hljs-string">"Usage: Watcher.exe (directory)"</span>);
+            <span class="hljs-keyword">return</span>;
+        }
+
+        <span class="hljs-comment">// Create a new FileSystemWatcher and set its properties.</span>
+        <span class="hljs-keyword">using</span> (FileSystemWatcher watcher = <span class="hljs-keyword">new</span> FileSystemWatcher())
+        {
+            watcher.Path = args[<span class="hljs-number">1</span>];
+
+            <span class="hljs-comment">// Watch for changes in LastAccess and LastWrite times, and</span>
+            <span class="hljs-comment">// the renaming of files or directories.</span>
+            watcher.NotifyFilter = NotifyFilters.LastAccess
+                                 | NotifyFilters.LastWrite
+                                 | NotifyFilters.FileName
+                                 | NotifyFilters.DirectoryName;
+
+            <span class="hljs-comment">// Only watch text files.</span>
+            watcher.Filter = <span class="hljs-string">"*.txt"</span>;
+
+            <span class="hljs-comment">// Add event handlers.</span>
+            watcher.Changed += OnChanged;
+            watcher.Created += OnChanged;
+            watcher.Deleted += OnChanged;
+            watcher.Renamed += OnRenamed;
+
+            <span class="hljs-comment">// Begin watching.</span>
+            watcher.EnableRaisingEvents = <span class="hljs-literal">true</span>;
+
+            <span class="hljs-comment">// Wait for the user to quit the program.</span>
+            Console.WriteLine(<span class="hljs-string">"Press 'q' to quit the sample."</span>);
+            <span class="hljs-keyword">while</span> (Console.Read() != <span class="hljs-string">'q'</span>) ;
+        }
+    }
+
+    <span class="hljs-comment">// Define the event handlers.</span>
+    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">OnChanged</span>(<span class="hljs-params"><span class="hljs-keyword">object</span> source, FileSystemEventArgs e</span>) </span>=&gt;
+        <span class="hljs-comment">// Specify what is done when a file is changed, created, or deleted.</span>
+        Console.WriteLine(<span class="hljs-string">$"File: <span class="hljs-subst">{e.FullPath}</span> <span class="hljs-subst">{e.ChangeType}</span>"</span>);
+
+    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">OnRenamed</span>(<span class="hljs-params"><span class="hljs-keyword">object</span> source, RenamedEventArgs e</span>) </span>=&gt;
+        <span class="hljs-comment">// Specify what is done when a file is renamed.</span>
+        Console.WriteLine(<span class="hljs-string">$"File: <span class="hljs-subst">{e.OldFullPath}</span> renamed to <span class="hljs-subst">{e.FullPath}</span>"</span>);
+}
+</code></pre><pre tabindex="0" class="has-inner-focus" hidden=""><code class="lang-vb" data-src="https://github.com/dotnet/samples/blob/live/snippets/visualbasic/VS_Snippets_CLR_Classic/classic%20NotifyFilters%20Example/VB/source.vb" name="Classic NotifyFilters Example#1" data-author-content="Imports System
+Imports System.IO
+Imports System.Security.Permissions
+Imports Microsoft.VisualBasic
+
+Public Class Watcher
+
+    Public Shared Sub Main()
+
+        Run()
+
+    End Sub
+
+    &lt;PermissionSet(SecurityAction.Demand, Name:=&quot;FullTrust&quot;)&gt;
+    Private Shared Sub Run()
+
+        Dim args() As String = Environment.GetCommandLineArgs()
+
+        &#39; If a directory is not specified, exit the program.
+        If args.Length &lt;&gt; 2 Then
+            &#39; Display the proper way to call the program.
+            Console.WriteLine(&quot;Usage: Watcher.exe (directory)&quot;)
+            Return
+        End If
+
+        &#39; Create a new FileSystemWatcher and set its properties.
+        Using watcher As New FileSystemWatcher()
+            watcher.Path = args(1)
+
+            &#39; Watch for changes in LastAccess and LastWrite times, and
+            &#39; the renaming of files or directories. 
+            watcher.NotifyFilter = (NotifyFilters.LastAccess _
+                                 Or NotifyFilters.LastWrite _
+                                 Or NotifyFilters.FileName _
+                                 Or NotifyFilters.DirectoryName)
+
+            &#39; Only watch text files.
+            watcher.Filter = &quot;*.txt&quot;
+
+            &#39; Add event handlers.
+            AddHandler watcher.Changed, AddressOf OnChanged
+            AddHandler watcher.Created, AddressOf OnChanged
+            AddHandler watcher.Deleted, AddressOf OnChanged
+            AddHandler watcher.Renamed, AddressOf OnRenamed
+
+            &#39; Begin watching.
+            watcher.EnableRaisingEvents = True
+
+            &#39; Wait for the user to quit the program.
+            Console.WriteLine(&quot;Press &#39;q&#39; to quit the sample.&quot;)
+            While Chr(Console.Read()) &lt;&gt; &quot;q&quot;c
+            End While
+        End Using
+    End Sub
+
+    &#39; Define the event handlers.
+    Private Shared Sub OnChanged(source As Object, e As FileSystemEventArgs)
+        &#39; Specify what is done when a file is changed, created, or deleted.
+        Console.WriteLine($&quot;File: {e.FullPath} {e.ChangeType}&quot;)
+    End Sub
+
+    Private Shared Sub OnRenamed(source As Object, e As RenamedEventArgs)
+        &#39; Specify what is done when a file is renamed.
+        Console.WriteLine($&quot;File: {e.OldFullPath} renamed to {e.FullPath}&quot;)
+    End Sub
+
+End Class
+">Imports System
+Imports System.IO
+Imports System.Security.Permissions
+Imports Microsoft.VisualBasic
+
+Public Class Watcher
+
+    Public Shared Sub Main()
+
+        Run()
+
+    End Sub
+
+    &lt;PermissionSet(SecurityAction.Demand, Name:="FullTrust")&gt;
+    Private Shared Sub Run()
+
+        Dim args() As String = Environment.GetCommandLineArgs()
+
+        ' If a directory is not specified, exit the program.
+        If args.Length &lt;&gt; 2 Then
+            ' Display the proper way to call the program.
+            Console.WriteLine("Usage: Watcher.exe (directory)")
+            Return
+        End If
+
+        ' Create a new FileSystemWatcher and set its properties.
+        Using watcher As New FileSystemWatcher()
+            watcher.Path = args(1)
+
+            ' Watch for changes in LastAccess and LastWrite times, and
+            ' the renaming of files or directories. 
+            watcher.NotifyFilter = (NotifyFilters.LastAccess _
+                                 Or NotifyFilters.LastWrite _
+                                 Or NotifyFilters.FileName _
+                                 Or NotifyFilters.DirectoryName)
+
+            ' Only watch text files.
+            watcher.Filter = "*.txt"
+
+            ' Add event handlers.
+            AddHandler watcher.Changed, AddressOf OnChanged
+            AddHandler watcher.Created, AddressOf OnChanged
+            AddHandler watcher.Deleted, AddressOf OnChanged
+            AddHandler watcher.Renamed, AddressOf OnRenamed
+
+            ' Begin watching.
+            watcher.EnableRaisingEvents = True
+
+            ' Wait for the user to quit the program.
+            Console.WriteLine("Press 'q' to quit the sample.")
+            While Chr(Console.Read()) &lt;&gt; "q"c
+            End While
+        End Using
+    End Sub
+
+    ' Define the event handlers.
+    Private Shared Sub OnChanged(source As Object, e As FileSystemEventArgs)
+        ' Specify what is done when a file is changed, created, or deleted.
+        Console.WriteLine($"File: {e.FullPath} {e.ChangeType}")
+    End Sub
+
+    Private Shared Sub OnRenamed(source As Object, e As RenamedEventArgs)
+        ' Specify what is done when a file is renamed.
+        Console.WriteLine($"File: {e.OldFullPath} renamed to {e.FullPath}")
+    End Sub
+
+End Class
+</code></pre>
+  	
+  				<h2 id="remarks" class="x-hidden-focus">Remarks<a class="docon docon-link heading-anchor" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#remarks" aria-labelledby="remarks"></a></h2>
+  			<p class="">To watch changes in all files, set the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-4.8" data-linktype="relative-path">Filter</a> property to an empty string (""). To watch a specific file, set the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-4.8" data-linktype="relative-path">Filter</a> property to the file name. For example, to watch for changes in the file MyDoc.txt, set the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-4.8" data-linktype="relative-path">Filter</a> property to "MyDoc.txt". You can also watch for changes in a certain type of file. For example, to watch for changes in any text files, set the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-4.8" data-linktype="relative-path">Filter</a> property to "*.txt". Use of multiple filters such as "*.txt|*.doc" is not supported.  </p>
+<p> The <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-4.8" data-linktype="relative-path">Filter</a> property can be changed after the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher?view=netframework-4.8" data-linktype="relative-path">FileSystemWatcher</a> object has started receiving events.  </p>
+<p> For more information about filtering out unwanted notifications, see the <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.notifyfilter?view=netframework-4.8" data-linktype="relative-path">NotifyFilter</a>, <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.includesubdirectories?view=netframework-4.8" data-linktype="relative-path">IncludeSubdirectories</a>, and <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.internalbuffersize?view=netframework-4.8" data-linktype="relative-path">InternalBufferSize</a> properties.  </p>
+<p> <a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?view=netframework-4.8" data-linktype="relative-path">Filter</a> accepts wildcards for matching files, as shown in the following examples.  </p>
+<div class="table-scroll-wrapper"><table>
+<thead>
+<tr>
+<th>Filter string</th>
+<th>Watches the following files</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>*.*</td>
+<td>All files (default). An empty string ("") also watches all files.</td>
+</tr>
+<tr>
+<td>*.txt</td>
+<td>All files with a "txt" extension.</td>
+</tr>
+<tr>
+<td>*recipe.doc</td>
+<td>All files ending in "recipe" with a "doc" extension.</td>
+</tr>
+<tr>
+<td>win*.xml</td>
+<td>All files beginning with "win" with an "xml" extension.</td>
+</tr>
+<tr>
+<td>Sales*200?.xls</td>
+<td>Matches the following:<br><br>- Sales July 2001.xls <br>- Sales Aug 2002.xls <br>- Sales March 2004.xls<br><br> but does not match:<br><br>- Sales Nov 1999.xls</td>
+</tr>
+<tr>
+<td>MyReport.Doc</td>
+<td>Watches only MyReport.doc</td>
+</tr>
+</tbody>
+</table></div>
+
+  	
+  			
+  	
+  				<h2 class="moniker-applies-to" id="applies-to">Applies to<a class="docon docon-link heading-anchor" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#applies-to" aria-labelledby="applies-to"></a></h2><h4 class="propertyInfoTitle">.NET Core</h4>
+
+			<div class="cdlHolder"><span class="cdl">3.0 Preview 7</span> <span class="cdl">2.2</span> <span class="cdl">2.1</span> <span class="cdl">2.0</span> <span class="cdl">1.1</span> <span class="cdl">1.0</span></div>
+<h4 class="propertyInfoTitle stack">.NET Framework</h4>
+
+			<div class="cdlHolder"><span class="cdl">4.8</span> <span class="cdl">4.7.2</span> <span class="cdl">4.7.1</span> <span class="cdl">4.7</span> <span class="cdl">4.6.2</span> <span class="cdl">4.6.1</span> <span class="cdl">4.6</span> <span class="cdl">4.5.2</span> <span class="cdl">4.5.1</span> <span class="cdl">4.5</span> <span class="cdl">4.0</span> <span class="cdl">3.5</span> <span class="cdl">3.0</span> <span class="cdl">2.0</span> <span class="cdl">1.1</span></div>
+<h4 class="propertyInfoTitle stack">.NET Standard</h4>
+
+			<div class="cdlHolder"><span class="cdl">2.1 Preview</span> <span class="cdl">2.0</span></div>
+<h4 class="propertyInfoTitle stack">Xamarin.Android</h4>
+
+			<div class="cdlHolder"><span class="cdl">7.1</span></div>
+<h4 class="propertyInfoTitle stack">Xamarin.iOS</h4>
+
+			<div class="cdlHolder"><span class="cdl">10.8</span></div>
+<h4 class="propertyInfoTitle stack">Xamarin.Mac</h4>
+
+			<div class="cdlHolder"><span class="cdl">3.0</span></div>
+
+  				<h2 id="see-also">See also<a class="docon docon-link heading-anchor" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#see-also" aria-labelledby="see-also"></a></h2>
+  				<ul>
+  						<li>
+  							<span class="lang-cpp" hidden=""><a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.notifyfilter?view=netframework-4.8#System_IO_FileSystemWatcher_NotifyFilter" data-linktype="relative-path">NotifyFilter</a></span>
+  							<span class="lang-csharp"><a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.notifyfilter?view=netframework-4.8#System_IO_FileSystemWatcher_NotifyFilter" data-linktype="relative-path">NotifyFilter</a></span>
+  							<span class="lang-fsharp" hidden=""><a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.notifyfilter?view=netframework-4.8#System_IO_FileSystemWatcher_NotifyFilter" data-linktype="relative-path">NotifyFilter</a></span>
+  							<span class="lang-vb" hidden=""><a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.notifyfilter?view=netframework-4.8#System_IO_FileSystemWatcher_NotifyFilter" data-linktype="relative-path">NotifyFilter</a></span>
+  						</li>
+  						<li>
+  							<span class="lang-cpp" hidden=""><a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.includesubdirectories?view=netframework-4.8#System_IO_FileSystemWatcher_IncludeSubdirectories" data-linktype="relative-path">IncludeSubdirectories</a></span>
+  							<span class="lang-csharp"><a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.includesubdirectories?view=netframework-4.8#System_IO_FileSystemWatcher_IncludeSubdirectories" data-linktype="relative-path">IncludeSubdirectories</a></span>
+  							<span class="lang-fsharp" hidden=""><a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.includesubdirectories?view=netframework-4.8#System_IO_FileSystemWatcher_IncludeSubdirectories" data-linktype="relative-path">IncludeSubdirectories</a></span>
+  							<span class="lang-vb" hidden=""><a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.includesubdirectories?view=netframework-4.8#System_IO_FileSystemWatcher_IncludeSubdirectories" data-linktype="relative-path">IncludeSubdirectories</a></span>
+  						</li>
+  						<li>
+  							<span class="lang-cpp" hidden=""><a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.internalbuffersize?view=netframework-4.8#System_IO_FileSystemWatcher_InternalBufferSize" data-linktype="relative-path">InternalBufferSize</a></span>
+  							<span class="lang-csharp"><a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.internalbuffersize?view=netframework-4.8#System_IO_FileSystemWatcher_InternalBufferSize" data-linktype="relative-path">InternalBufferSize</a></span>
+  							<span class="lang-fsharp" hidden=""><a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.internalbuffersize?view=netframework-4.8#System_IO_FileSystemWatcher_InternalBufferSize" data-linktype="relative-path">InternalBufferSize</a></span>
+  							<span class="lang-vb" hidden=""><a class="xref" href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.internalbuffersize?view=netframework-4.8#System_IO_FileSystemWatcher_InternalBufferSize" data-linktype="relative-path">InternalBufferSize</a></span>
+  						</li>
+  				</ul>
+  	
+  	</div>
+
+						<!-- </content> -->
+
+						</main>
+
+						<!-- rating mobile section -->
+								<div class="is-hidden-desktop has-border-top has-margin-top-large has-padding-top-small">
+<div data-bi-name="rating" class="feedback-verbatim has-border-bottom has-padding-bottom-small has-margin-bottom-small">
+	<div class="binary-rating">
+		<div class="binary-rating-buttons">
+			<h3 class="has-text-weight-semibold has-margin-top-none has-margin-bottom-small">Is this page helpful?</h3>
+			<div>
+				<button class="thumb-rating like has-inner-focus has-padding-left-extra-small has-padding-right-extra-small" title="Yes" data-bi-name="rating-yes" data-bi-sat="1">
+					<span class="icon docon docon-like" aria-hidden="true"></span><span>Yes</span>
+				</button>
+				<button class="thumb-rating dislike has-inner-focus has-padding-none has-padding-right-extra-small" title="No" data-bi-name="rating-no" data-bi-sat="0" aria-expanded="false" aria-haspopup="true" aria-controls="rating-feedback">
+					<span class="icon docon docon-dislike" aria-hidden="true"></span><span>No</span>
+				</button>
+			</div>
+		</div>
+		<form class="feedback-verbatim-form is-hidden">
+			<div class="verbatim-textarea box is-relative has-box-shadow-none has-border has-margin-top-small has-padding-extra-small is-size-8">
+				<label for="rating-feedback-mobile" class="visually-hidden">Any additional feedback?</label>
+				<textarea id="rating-feedback-mobile" rows="4" maxlength="999" placeholder="Any additional feedback?" required="" class="textarea has-border-none has-box-shadow-none has-inner-focus"></textarea>
+			</div>
+			<div class="buttons is-right has-margin-top-medium has-margin-right-extra-small">
+				<button class="skip-rating button is-text is-link is-small" type="button">Skip</button>
+				<button disabled="" class="submit-rating button is-primary is-small" type="submit" data-bi-name="rating-verbatim">Submit</button>
+			</div>
+		</form>
+	</div>
+	<div class="thankyou-rating is-hidden">
+		<p>Thank you.</p>
+	</div>
+</div>								</div>
+						<!-- end rating mobile section -->
+
+						<!-- feedback section -->
+
+
+
+
+
+						<!-- end feedback section -->
+
+						<div class="footerContainer is-visible-interactive has-default-focus ">
+<footer id="footer-interactive" data-bi-name="footer" class="footer-layout">
+
+    <a data-mscc-ic="false" class="locale-selector-link" href="https://docs.microsoft.com/en-us/locale?target=https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#System_IO_FileSystemWatcher_Filter" data-bi-name="select-locale"><span class="icon docon docon-world is-size-4 has-margin-right-small" aria-hidden="true"></span><span class="local-selector-link-text has-inner-focus">English (United States)</span></a>
+
+    <ul class="links" data-bi-name="footerlinks">
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/previous-versions/" data-bi-name="archivelink">Previous Version Docs</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/teamblog" data-bi-name="bloglink">Blog</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/contribute" data-bi-name="contributorGuide">Contribute</a></li>
+			<li><a data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Privacy &amp; Cookies</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/en-us/legal/termsofuse" data-bi-name="termsofuse">Terms of Use</a></li>
+		<li><a data-mscc-ic="false" href="https://aka.ms/sitefeedback" data-bi-name="feedback">Site Feedback</a></li>
+		<li><a data-mscc-ic="false" href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/EN-US.aspx" data-bi-name="trademarks">Trademarks</a></li>
+    </ul>
+</footer>
+						</div>
+					</div>
+
+					<div id="page-actions" class="right-container column is-one-quarter is-one-fifth-desktop is-hidden-mobile is-hidden-tablet-only" data-bi-name="pageactions" role="complementary" aria-label="Page Actions">
+							<div id="affixed-right-container" class="doc-outline is-fixed is-vertically-scrollable" style="width: 145.409px; top: 24px; bottom: 24px;">
+<div data-bi-name="rating" class="feedback-verbatim has-border-bottom has-padding-bottom-small has-margin-bottom-small">
+	<div class="binary-rating">
+		<div class="binary-rating-buttons">
+			<h3 class="has-text-weight-semibold has-margin-top-none has-margin-bottom-small">Is this page helpful?</h3>
+			<div>
+				<button class="thumb-rating like has-inner-focus has-padding-left-extra-small has-padding-right-extra-small" title="Yes" data-bi-name="rating-yes" data-bi-sat="1">
+					<span class="icon docon docon-like" aria-hidden="true"></span><span>Yes</span>
+				</button>
+				<button class="thumb-rating dislike has-inner-focus has-padding-none has-padding-right-extra-small" title="No" data-bi-name="rating-no" data-bi-sat="0" aria-expanded="false" aria-haspopup="true" aria-controls="rating-feedback">
+					<span class="icon docon docon-dislike" aria-hidden="true"></span><span>No</span>
+				</button>
+			</div>
+		</div>
+		<form class="feedback-verbatim-form is-hidden">
+			<div class="verbatim-textarea box is-relative has-box-shadow-none has-border has-margin-top-small has-padding-extra-small is-size-8">
+				<label for="rating-feedback-mobile" class="visually-hidden">Any additional feedback?</label>
+				<textarea id="rating-feedback-mobile" rows="4" maxlength="999" placeholder="Any additional feedback?" required="" class="textarea has-border-none has-box-shadow-none has-inner-focus"></textarea>
+			</div>
+			<div class="buttons is-right has-margin-top-medium has-margin-right-extra-small">
+				<button class="skip-rating button is-text is-link is-small" type="button">Skip</button>
+				<button disabled="" class="submit-rating button is-primary is-small" type="submit" data-bi-name="rating-verbatim">Submit</button>
+			</div>
+		</form>
+	</div>
+	<div class="thankyou-rating is-hidden">
+		<p>Thank you.</p>
+	</div>
+</div>								<nav id="side-doc-outline" data-bi-name="intopic toc" role="navigation" aria-label="Article Outline">
+									<h3>In this article</h3>
+								<ol><li class=""><a href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#definition">Definition</a></li><li class="selected"><a href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#examples">Examples</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#remarks">Remarks</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#applies-to">Applies to</a></li><li><a href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#see-also">See also</a></li></ol></nav>
+							</div>
+					</div>
+
+					<!--end of div.columns -->
+				</div>
+
+			<!--end of .primary-holder -->
+			</section>
+
+			<aside id="interactive-container" class="interactive-container is-visible-interactive column has-body-background-dark ">
+			</aside>
+		</div>
+
+		<!--end of .mainContainer -->
+	</div>
+
+	<div id="openFeedbackContainer" class="openfeedback-container"></div>
+
+	<div class="footerContainer has-default-focus is-hidden-interactive ">
+<footer id="footer" data-bi-name="footer" class="footer-layout uhf-container has-padding" role="contentinfo">
+
+    <a data-mscc-ic="false" class="locale-selector-link" href="https://docs.microsoft.com/en-us/locale?target=https://docs.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher.filter?redirectedfrom=MSDN&amp;view=netframework-4.8#System_IO_FileSystemWatcher_Filter" data-bi-name="select-locale"><span class="icon docon docon-world is-size-4 has-margin-right-small" aria-hidden="true"></span><span class="local-selector-link-text">English (United States)</span></a>
+
+    <ul class="links" data-bi-name="footerlinks">
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/previous-versions/" data-bi-name="archivelink">Previous Version Docs</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/teamblog" data-bi-name="bloglink">Blog</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/contribute" data-bi-name="contributorGuide">Contribute</a></li>
+			<li><a data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Privacy &amp; Cookies</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/en-us/legal/termsofuse" data-bi-name="termsofuse">Terms of Use</a></li>
+		<li><a data-mscc-ic="false" href="https://aka.ms/sitefeedback" data-bi-name="feedback">Site Feedback</a></li>
+		<li><a data-mscc-ic="false" href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/EN-US.aspx" data-bi-name="trademarks">Trademarks</a></li>
+    </ul>
+</footer>
+	</div>
+
+	<div id="action-panel" role="region" aria-label="Action Panel" class="action-panel has-default-focus" tabindex="-1"></div>
+
+
+</body></html>

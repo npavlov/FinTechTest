@@ -1,0 +1,4 @@
+C:\Users\npavlov\Source\repos\FintechEx1\FintechEx1\bin\Debug\netcoreapp2.2\data\fsdfdsf.txt-CountSymbols-18631
+C:\Users\npavlov\Source\repos\FintechEx1\FintechEx1\bin\Debug\netcoreapp2.2\data\FileSystemWatcher.Filter Property (System.IO) _ Microsoft Docs.html-CountDivs-167
+C:\Users\npavlov\Source\repos\FintechEx1\FintechEx1\bin\Debug\netcoreapp2.2\data\fsdfdsf.txt-CountSymbols-18631
+C:\Users\npavlov\Source\repos\FintechEx1\FintechEx1\bin\Debug\netcoreapp2.2\data\test.css-DoesBracketsMatch-False

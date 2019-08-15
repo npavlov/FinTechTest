@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FintechEx1": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\npavlov\\Source\\repos\\FintechEx1\\FintechEx1\\bin\\Debug\\netcoreapp2.2\\data"
+    }
+  }
+}

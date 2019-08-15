@@ -1,0 +1,11 @@
+C:\Users\npavlov\Source\repos\FintechEx1\FintechEx1\bin\Debug\netcoreapp2.2\FintechEx1.deps.json
+C:\Users\npavlov\Source\repos\FintechEx1\FintechEx1\bin\Debug\netcoreapp2.2\FintechEx1.runtimeconfig.json
+C:\Users\npavlov\Source\repos\FintechEx1\FintechEx1\bin\Debug\netcoreapp2.2\FintechEx1.runtimeconfig.dev.json
+C:\Users\npavlov\Source\repos\FintechEx1\FintechEx1\bin\Debug\netcoreapp2.2\FintechEx1.dll
+C:\Users\npavlov\Source\repos\FintechEx1\FintechEx1\bin\Debug\netcoreapp2.2\FintechEx1.pdb
+C:\Users\npavlov\Source\repos\FintechEx1\FintechEx1\obj\Debug\netcoreapp2.2\FintechEx1.csprojAssemblyReference.cache
+C:\Users\npavlov\Source\repos\FintechEx1\FintechEx1\obj\Debug\netcoreapp2.2\FintechEx1.csproj.CoreCompileInputs.cache
+C:\Users\npavlov\Source\repos\FintechEx1\FintechEx1\obj\Debug\netcoreapp2.2\FintechEx1.AssemblyInfoInputs.cache
+C:\Users\npavlov\Source\repos\FintechEx1\FintechEx1\obj\Debug\netcoreapp2.2\FintechEx1.AssemblyInfo.cs
+C:\Users\npavlov\Source\repos\FintechEx1\FintechEx1\obj\Debug\netcoreapp2.2\FintechEx1.dll
+C:\Users\npavlov\Source\repos\FintechEx1\FintechEx1\obj\Debug\netcoreapp2.2\FintechEx1.pdb
